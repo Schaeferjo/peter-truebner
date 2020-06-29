@@ -1,9 +1,12 @@
 <template>
-  <div id="lebenlauf">
+  <div id="lebenslauf">
     <h1>Lebenslauf</h1>
     <h2>Peter Trübner - Prof. emeritiert, Dr. phil.</h2>
-    <img
-      src="../assets/images/portrait_peter_truebner_large.jpg"
+    <v-img
+      src="/images/portrait_peter_truebner_large.jpg"
+      srcset="/images/portrait_peter_truebner_small.jpg 200w, /images/portrait_peter_truebner_large.jpg 1000w"
+      sizes="(max-width: 425px) 200px, 1000px"
+      max-width="1000px"
       alt="Prof. em., Dr. phil. Peter Trüber Biel/ Bienne Schweiz"
     />
     <div id="cv">

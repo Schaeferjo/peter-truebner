@@ -91,8 +91,8 @@ export default {
   build: {
     hotMiddleware: {
       client: {
-        overlay: false
-      }
+        overlay: false,
+      },
     },
   },
 }
