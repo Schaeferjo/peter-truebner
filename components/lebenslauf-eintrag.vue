@@ -1,13 +1,14 @@
 <template>
-  <div class="cv-item">
-    <div class="cv-item-date">
-      {{ date }}
-    </div>
-
-    <div class="cv-item-content">
-      <slot></slot>
-    </div>
-  </div>
+  <v-container class="cv-item-wrap">
+    <v-row class="cv-item">
+      <v-col class="cv-item-date" cols="12" xs="12" sm="3">
+        {{ date }}
+      </v-col>
+      <v-col class="cv-item-content" cols="12" xs="12" sm="9">
+        <slot></slot>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -22,22 +23,28 @@ export default {
 </script>
 
 <style>
+.cv-item-wrap {
+  padding: 0;
+}
+
 .cv-item {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: baseline;
+  padding: 0;
 }
 
 .cv-item-date {
   text-align: right;
   font-weight: bold;
   font-size: 1.2em;
-  border-right: 1px solid #ccc;
-  padding: 2em;
+  padding: 0 2em;
 }
 
 .cv-item-content {
   text-align: left;
-  padding: 2em;
+  padding: 2em 1em 3em 2em;
+  border-left: 1px solid #ccc;
 }
 </style>
