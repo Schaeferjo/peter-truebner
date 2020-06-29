@@ -2,8 +2,10 @@
   <div id="lebenlauf">
     <h1>Lebenslauf</h1>
     <h2>Peter Trübner - Prof. emeritiert, Dr. phil.</h2>
-
-    <p style="color: red;">FOTO</p>
+    <img
+      src="../assets/images/portrait_peter_truebner_large.jpg"
+      alt="Prof. em., Dr. phil. Peter Trüber Biel/ Bienne Schweiz"
+    />
     <div id="cv">
       <LebenslaufEintrag date="Aktuell">
         <ul>

@@ -44,7 +44,7 @@ export default {
 
 .cv-item-content {
   text-align: left;
-  padding: 2em 1em 3em 2em;
+  padding: 1em 1em 4.5em 2em;
   border-left: 1px solid #ccc;
 }
 </style>
