@@ -393,9 +393,7 @@
       <br />Auseinandersetzung mit einzelnen Utopien der 68er Generation und der
       politischen Entwicklung von deren Protagonisten.
     </p>
-    <p>
-      <br />
-    </p>
+
     <hr />
     <p>
       Mit dem Eintritt in die Abteilung Pädagogik der "Hochschule für Pädagogik
@@ -406,9 +404,6 @@
       Lehre auf mich zu, dass ich in der Folge nur noch wenig publizierte. Ich
       betrachtete das Engagement für die Lehre und die Praxisbegleitung als
       wichtiger.
-    </p>
-    <p>
-      <br />
     </p>
     <p>
       Seit 2017 schreibe ich zu meinem lebenslangen Hobby Rockmusik – "Blicke

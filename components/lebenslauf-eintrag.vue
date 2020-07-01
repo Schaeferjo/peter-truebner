@@ -36,9 +36,13 @@ export default {
 }
 
 .cv-item-date {
+  font-family: 'PT Serif', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  padding-bottom: 0.25em;
   text-align: right;
   font-weight: 700; /* bold */
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: 0 2em;
   letter-spacing: 0;
 }
