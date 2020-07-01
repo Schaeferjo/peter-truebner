@@ -70,7 +70,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     defaultAssets: {
-      font: false
+      font: false,
     },
     treeShake: true,
     theme: {
