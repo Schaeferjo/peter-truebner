@@ -37,9 +37,10 @@ export default {
 
 .cv-item-date {
   text-align: right;
-  font-weight: bold;
+  font-weight: 700; /* bold */
   font-size: 1.2em;
   padding: 0 2em;
+  letter-spacing: 0;
 }
 
 .cv-item-content {
