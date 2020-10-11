@@ -13,7 +13,11 @@
           </div>
         </div>
       </div>
-      <nuxt class="px-4 py-6" />
+
+      <div class="custom_main">
+        <nuxt />
+      </div>
+
       <div class="aside_right d-none d-md-block pr-12"></div>
     </v-main>
 
@@ -74,11 +78,20 @@ export default {
 
 .aside_right {
   width: 10%;
-  border: 1px solid green;
 }
 
 .v-main__wrap {
   display: flex;
   flex-direction: row;
+}
+
+.custom_main {
+  width: 60% !important;
+}
+
+@media only screen and (max-width: 959px) {
+  .custom_main {
+    width: 100% !important;
+  }
 }
 </style>
