@@ -18,8 +18,6 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
 
-
-
   head: {
     titleTemplate: 'Prof. em. Dr. phil. Peter Trübner %s',
     title: '',

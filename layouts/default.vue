@@ -6,16 +6,15 @@
     <v-main>
       <div class="aside_left d-none d-md-block">
         <div class="aside_left_inside">
-              <div class="aside_menu">
-              <v-list flat nav>
-                    <NavigationItems></NavigationItems>
-                </v-list>
-                </div>
-         </div>
+          <div class="aside_menu">
+            <v-list flat nav>
+              <NavigationItems></NavigationItems>
+            </v-list>
+          </div>
         </div>
       </div>
-      <nuxt class="px-4" />
-       <div class="aside_right d-none d-md-block"></div>
+      <nuxt class="px-4 py-6" />
+      <div class="aside_right d-none d-md-block pr-12"></div>
     </v-main>
 
     <footer-component></footer-component>
@@ -57,37 +56,29 @@ export default {
 </script>
 
 <style lang="scss">
-
-
-
-
 .aside_left {
   min-width: 350px;
-
   width: 30%;
-  .aside_left_inside{ 
-    float:right;
-    border-left:1px solid #ccc;
-    width:225px;
-    height:100%;
-    .aside_menu{
-      padding:1em;
+  .aside_left_inside {
+    float: right;
+    border-left: 1px solid #ccc;
+    width: 225px;
+    height: 100%;
+    display: flex;
+    .aside_menu {
+      padding: 1em;
+      align-self: start;
     }
-
   }
 }
 
-
-.aside_right{
-    width: 10%;
-    border:1px solid green;
+.aside_right {
+  width: 10%;
+  border: 1px solid green;
 }
-
 
 .v-main__wrap {
   display: flex;
   flex-direction: row;
 }
-
-
 </style>

@@ -15,7 +15,7 @@
         </v-btn>
       </v-toolbar>
       <v-list flat nav class="px-0">
-         <navigation-items></navigation-items>
+        <navigation-items></navigation-items>
       </v-list>
     </v-card>
   </v-navigation-drawer>
