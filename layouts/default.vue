@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <div id="deko_square"></div>
     <drawer ref="drawer"></drawer>
     <header-component @toggleDrawer="toggleDrawer"></header-component>
 
@@ -60,6 +61,18 @@ export default {
 </script>
 
 <style lang="scss">
+#deko_square {
+  position: absolute;
+  top: 200px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 .aside_left {
   min-width: 350px;
   width: 30%;
@@ -70,7 +83,7 @@ export default {
     height: 100%;
     display: flex;
     .aside_menu {
-      padding: 1em;
+      padding: 50px 1em 1em 1em;
       align-self: start;
     }
   }
@@ -87,11 +100,18 @@ export default {
 
 .custom_main {
   width: 60% !important;
+  padding: 80px 2em 1em 2em;
+}
+
+.v-divider{
+  margin-top:3em;
+  padding-bottom:3em;
 }
 
 @media only screen and (max-width: 959px) {
   .custom_main {
     width: 100% !important;
+    padding: 80px 1.5em 1em 1.5em !important;
   }
 }
 </style>

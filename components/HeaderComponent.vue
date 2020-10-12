@@ -54,7 +54,7 @@ export default {
 
 @media only screen and (max-width: 959px) {
   .v-toolbar__content {
-    padding: 1em !important;
+    padding: 0 1em 0 2em !important;
   }
 }
 </style>
