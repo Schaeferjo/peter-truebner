@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="aside_menu_content">
     <v-list-item nuxt link to="/">Startseite</v-list-item>
     <v-list-item nuxt link to="/lebenslauf">Lebenslauf</v-list-item>
     <v-list-item nuxt link to="/publikationen">Publikationen</v-list-item>

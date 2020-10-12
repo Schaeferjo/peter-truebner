@@ -9,7 +9,7 @@
           Telemediengesetz ist:
         </p>
         <p>
-        Prof. em. Dr. phil. Peter Trübner <br />
+          Prof. em. Dr. phil. Peter Trübner <br />
           Alexander Moserstraße 32a<br />
           CH-2503 Biel/ Bienne <br />
           Schweiz
@@ -82,7 +82,6 @@
     </v-row>
   </v-container>
 </template>
-
 
 <script>
 export default {

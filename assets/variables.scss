@@ -56,6 +56,23 @@
   
   $body-font-family: 'PT Sans', sans-serif;
 
+
+  $peter_blue: #305596;
+
+  :active, :focus{
+     outline: none !important;
+   }
+   
+   ::selection {
+     background: red; /* WebKit/Blink Browsers */
+     color:#fff;
+   }
+   ::-moz-selection {
+     background: red; /* Gecko Browsers */
+     color:#fff;
+   }
+   
+
   h1{
      font-family: 'PT Serif', sans-serif;
      font-style: italic;
@@ -76,3 +93,6 @@
    }
    
    
+   .v-ripple__container {
+     display:none !important;
+ }

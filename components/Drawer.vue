@@ -1,20 +1,14 @@
 <template>
   <v-navigation-drawer v-model="drawer" temporary app color="#305596">
-    <template v-slot:img>
-      <v-img
-        contain
-        class="drawer-background-image"
-        src="/logo_ichen.svg"
-      ></v-img>
-    </template>
+    <template v-slot:img> </template>
     <v-card flat dark color="transparent" class="py-4">
       <v-toolbar flat color="transparent">
         <v-spacer></v-spacer>
         <v-btn icon @click.stop="toggleDrawer">
-          <v-icon size="50">mdi-close</v-icon>
+          <v-icon size="35">mdi-close</v-icon>
         </v-btn>
       </v-toolbar>
-      <v-list flat nav class="px-0">
+      <v-list flat nav class="px-0 mobile_nav">
         <navigation-items></navigation-items>
       </v-list>
     </v-card>
@@ -72,17 +66,17 @@ export default {
   // drawer level 1
   .v-list-item,
   .v-list-group .v-list-group__header {
-    font-family: 'Overlock';
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-size: 0.9rem;
+    font-family: 'PT Serif', sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
 
     padding: 7px 30px !important;
     border-radius: 0 !important;
     margin-bottom: 0 !important;
-    &:hover {
+    &:before {
+      display: none !important;
     }
   }
   .v-list-group {

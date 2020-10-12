@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .cv-item-wrap {
   padding: 0;
 }
@@ -49,7 +49,20 @@ export default {
 
 .cv-item-content {
   text-align: left;
-  padding: 1em 1em 4.5em 2em;
+  padding: 3px 1em 3em 2em;
   border-left: 1px solid #ccc;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-left: calc(-2em - 5px);
+    margin-top: 5px;
+  }
 }
 </style>

@@ -8,7 +8,7 @@
       <div class="aside_left d-none d-md-block">
         <div class="aside_left_inside">
           <div class="aside_menu">
-            <v-list flat nav>
+            <v-list flat nav class="px-0">
               <NavigationItems></NavigationItems>
             </v-list>
           </div>
@@ -63,8 +63,8 @@ export default {
 <style lang="scss">
 #deko_square {
   position: absolute;
-  top: 200px;
-  right: -15px;
+  top: 175px;
+  right: -20px;
   width: 30px;
   height: 30px;
   border: 1px solid #ccc;
@@ -83,8 +83,38 @@ export default {
     height: 100%;
     display: flex;
     .aside_menu {
-      padding: 50px 1em 1em 1em;
+      padding: 95px 0em 1em 0em;
       align-self: start;
+    }
+  }
+}
+
+.aside_menu_content {
+  .v-list-item {
+    font-family: 'PT Serif', sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #305596;
+    padding-left: 1em;
+    &.v-list-item--active:before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 12px;
+      margin-left: -10px;
+      width: 20px;
+      height: 20px;
+      border-right: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      opacity: 1;
+      border-radius: 0;
+      background-color: #fff;
+
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      transform: rotate(45deg);
     }
   }
 }
@@ -100,18 +130,18 @@ export default {
 
 .custom_main {
   width: 60% !important;
-  padding: 80px 2em 1em 2em;
+  padding: 20px 2em 5em 2em;
 }
 
-.v-divider{
-  margin-top:3em;
-  padding-bottom:3em;
+.v-divider {
+  margin-top: 3em;
+  padding-bottom: 3em;
 }
 
 @media only screen and (max-width: 959px) {
   .custom_main {
     width: 100% !important;
-    padding: 80px 1.5em 1em 1.5em !important;
+    padding: 20px 1.5em 3em 1.5em !important;
   }
 }
 </style>

@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1>Lebenslauf</h1>
-
+        <h2 class="text-right">Peter Trübner – Prof. emeritiert, Dr. phil.</h2>
         <v-img
           src="/images/portrait_peter_truebner_large.jpg"
           srcset="/images/portrait_peter_truebner_small.jpg 200w, /images/portrait_peter_truebner_large.jpg 1000w"
@@ -12,10 +12,10 @@
           class="my-6"
           alt="Prof. em., Dr. phil. Peter Trüber Biel/ Bienne Schweiz"
         />
-        <h2>Peter Trübner – Prof. emeritiert, Dr. phil.</h2>
+
         <div id="cv">
           <LebenslaufEintrag date="Aktuell">
-            <ul>
+            <ul class="lebenslauf">
               <li>Psychologische Beratung von Einzelnen</li>
               <li>
                 Referent, Projektberatung und Entwicklungsberatung für
@@ -96,12 +96,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #cv {
-  padding: 4em 0;
+  padding: 4em 0 0 0;
 }
 </style>
-
 
 <script>
 export default {

@@ -458,7 +458,6 @@
   </v-container>
 </template>
 
-
 <script>
 export default {
   head() {

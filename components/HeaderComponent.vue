@@ -1,31 +1,42 @@
 <template>
   <div>
-    <v-app-bar height="85px" flat color="transparent" absolute app clipped-left>
+    <v-app-bar
+      height="120px"
+      flat
+      color="transparent"
+      absolute
+      app
+      clipped-left
+    >
       <div class="aside_left d-none d-md-block" align="right">
+        <nuxt-link to="/">
+          <v-img
+            src="/logo_peter_truebner.svg"
+            width="185px"
+            max-width="185px"
+            height="120px"
+            alt="Logo Prof. em. Dr. phil. Peter Trübner"
+            class="d-none d-md-block logo_pt"
+          />
+        </nuxt-link>
+      </div>
+      <nuxt-link to="/">
         <v-img
           src="/logo_peter_truebner.svg"
           width="185px"
           max-width="185px"
-          height="85px"
+          height="120px"
           alt="Logo Prof. em. Dr. phil. Peter Trübner"
-          class="d-none d-md-block logo_pt"
+          class="d-md-none"
         />
-      </div>
-      <v-img
-        src="/logo_peter_truebner.svg"
-        width="185px"
-        max-width="185px"
-        height="85px"
-        alt="Logo Prof. em. Dr. phil. Peter Trübner"
-        class="d-md-none"
-      />
+      </nuxt-link>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon
-        class="d-md-none"
+        class="d-md-none mt-6"
         aria-label="Open Drawer"
         @click.stop="toggleDrawer"
       >
-        <v-icon size="35" color="#000">mdi-menu</v-icon>
+        <v-icon size="35" color="#305596">mdi-menu</v-icon>
       </v-app-bar-nav-icon>
 
       <div class="aside_right d-none d-md-block"></div>
@@ -54,7 +65,7 @@ export default {
 
 @media only screen and (max-width: 959px) {
   .v-toolbar__content {
-    padding: 0 1em 0 2em !important;
+    padding: 0 1em 0 0.95em !important;
   }
 }
 </style>
