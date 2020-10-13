@@ -1,4 +1,15 @@
-import colors from 'vuetify/es5/util/colors'
+const colors = {
+  primary: '#000000',
+  error: '#E0124D',
+  secondary: '#ECE1CB',
+  ichen_beige: '#ece1cb',
+  ichen_yellow: '#e5bc80',
+  ichen_green: '#709726',
+  ichen_blue: '#2a434c',
+  ichen_red: '#e0124d',
+  ichen_brown: '#48413d',
+  $peter_blue: '#305596',
+}
 
 const description = 'Prof. em. Dr. phil. Peter Trübner'
 
@@ -69,22 +80,17 @@ export default {
    ** https://github.com/nuxt-community/vuetify-module
    */
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    defaultAssets: {
-      font: false,
-    },
     treeShake: true,
+    customVariables: ['~/assets/variables.scss'],
+    defaultAssets: false,
     theme: {
-      dark: false,
       themes: {
         dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
+          accent: colors.ichen_green,
+          success: colors.ichen_green,
+          warning: colors.error,
+          info: colors.ichen_blue,
+          ...colors,
         },
       },
     },
@@ -100,4 +106,5 @@ export default {
       },
     },
   },
+  transpile: ['mapbox-gl-controls/lib/styles'],
 }

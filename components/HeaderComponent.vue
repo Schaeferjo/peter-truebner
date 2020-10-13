@@ -56,7 +56,7 @@ export default {
 
 <style lang="scss">
 .logo_pt {
-  margin-right: 150px;
+  margin-right: 130px;
 }
 
 .v-toolbar__content {
@@ -65,7 +65,7 @@ export default {
 
 @media only screen and (max-width: 959px) {
   .v-toolbar__content {
-    padding: 0 1em 0 0.95em !important;
+    padding: 0 2.2em !important;
   }
 }
 </style>

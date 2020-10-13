@@ -3,25 +3,21 @@
     <div id="deko_square"></div>
     <drawer ref="drawer"></drawer>
     <header-component @toggleDrawer="toggleDrawer"></header-component>
-
     <v-main>
       <div class="aside_left d-none d-md-block">
         <div class="aside_left_inside">
-          <div class="aside_menu">
-            <v-list flat nav class="px-0">
+          <div class="aside_menu_wrap">
+            <v-list id="nav_default" flat nav class="px-0">
               <NavigationItems></NavigationItems>
             </v-list>
           </div>
         </div>
       </div>
-
       <div class="custom_main">
         <nuxt />
       </div>
-
       <div class="aside_right d-none d-md-block pr-12"></div>
     </v-main>
-
     <footer-component></footer-component>
   </v-app>
 </template>
@@ -44,14 +40,6 @@ export default {
       title: 'Prof. em. Dr. phil. Peter Trübner',
     }
   },
-  async mounted() {
-    try {
-      // ping heroku to wake it up
-      await this.$axios.$get('/veranstaltungs/count')
-    } catch {
-      /* ignore */
-    }
-  },
   methods: {
     toggleDrawer() {
       this.$refs.drawer.toggleDrawer()
@@ -61,9 +49,13 @@ export default {
 </script>
 
 <style lang="scss">
+#__layout {
+  overflow-x: hidden;
+}
+
 #deko_square {
   position: absolute;
-  top: 175px;
+  top: 180px;
   right: -20px;
   width: 30px;
   height: 30px;
@@ -79,42 +71,76 @@ export default {
   .aside_left_inside {
     float: right;
     border-left: 1px solid #ccc;
-    width: 225px;
+    width: 205px;
     height: 100%;
     display: flex;
-    .aside_menu {
+    .aside_menu_wrap {
       padding: 95px 0em 1em 0em;
       align-self: start;
+      //
     }
   }
 }
 
-.aside_menu_content {
-  .v-list-item {
-    font-family: 'PT Serif', sans-serif;
-    font-style: italic;
-    font-size: 1.5em;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    color: #305596;
-    padding-left: 1em;
-    &.v-list-item--active:before {
-      content: '';
-      position: absolute;
-      display: block;
-      top: 12px;
-      margin-left: -10px;
-      width: 20px;
-      height: 20px;
-      border-right: 1px solid #ccc;
-      border-top: 1px solid #ccc;
-      opacity: 1;
-      border-radius: 0;
-      background-color: #fff;
+.menu_content a {
+  // global styling
+  font-family: 'PT Serif', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
 
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      transform: rotate(45deg);
+#nav_default {
+  // #nav_default is shown, instead of #nav_mobile
+  .menu_content {
+    // > .menu_content : only custom styling for default nav
+    a {
+      color: #000;
+      padding: 0 1em;
+      &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 20px;
+        margin-left: -1px;
+        width: 0px;
+        height: 0px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border: 1px solid #fff !important;
+        border-top: 1px solid #ccc !important;
+        border-right: 1px solid #ccc !important;
+        border-radius: 0;
+        background-color: #fff;
+      }
+      &:hover {
+        color: #ccc !important;
+        &:before {
+          opacity: 1;
+          top: 12px;
+          margin-left: -10px;
+          border: 1px solid #fff !important;
+          border-top: 1px solid #ccc !important;
+          border-right: 1px solid #ccc !important;
+          width: 20px;
+          height: 20px;
+        }
+      }
+      &.v-list-item--active {
+        color: #305596;
+        &:before {
+          opacity: 1;
+          top: 12px;
+          margin-left: -10px;
+          border: 1px solid #fff !important;
+          border-top: 1px solid #ccc !important;
+          border-right: 1px solid #ccc !important;
+          width: 20px;
+          height: 20px;
+        }
+      }
     }
   }
 }
@@ -130,7 +156,7 @@ export default {
 
 .custom_main {
   width: 60% !important;
-  padding: 20px 2em 5em 2em;
+  padding: 20px 2em 3em 2em;
 }
 
 .v-divider {

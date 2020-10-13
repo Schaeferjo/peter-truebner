@@ -5,8 +5,9 @@
 
 
 
+$peter_blue: #305596;
+
 @import '~vuetify/src/styles/styles.sass';
-@import '~assets/typo.scss';
 
 
 /* LOCAL FONTS */
@@ -64,11 +65,11 @@
    }
    
    ::selection {
-     background: red; /* WebKit/Blink Browsers */
+     background: #305596; /* WebKit/Blink Browsers */
      color:#fff;
    }
    ::-moz-selection {
-     background: red; /* Gecko Browsers */
+     background:#305596; /* Gecko Browsers */
      color:#fff;
    }
    
@@ -78,7 +79,14 @@
      font-style: italic;
      font-weight: 700;
      text-align: right;
+     font-size: 2.5em;
+
    }
+
+ h2{
+  font-size: 1.8em;
+  color:#305596;
+ }
    
    h3{
      text-transform: uppercase;
@@ -93,6 +101,8 @@
    }
    
    
+
+  
    .v-ripple__container {
      display:none !important;
  }

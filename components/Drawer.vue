@@ -1,17 +1,16 @@
 <template>
   <v-navigation-drawer v-model="drawer" temporary app color="#305596">
     <template v-slot:img> </template>
-    <v-card flat dark color="transparent" class="py-4">
-      <v-toolbar flat color="transparent">
-        <v-spacer></v-spacer>
-        <v-btn icon @click.stop="toggleDrawer">
-          <v-icon size="35">mdi-close</v-icon>
-        </v-btn>
-      </v-toolbar>
-      <v-list flat nav class="px-0 mobile_nav">
-        <navigation-items></navigation-items>
-      </v-list>
-    </v-card>
+
+    <v-toolbar flat color="transparent">
+      <v-spacer></v-spacer>
+      <v-btn icon @click.stop="toggleDrawer">
+        <v-icon size="35">mdi-close</v-icon>
+      </v-btn>
+    </v-toolbar>
+    <v-list id="nav_mobile" flat nav class="px-0">
+      <NavigationItems></NavigationItems>
+    </v-list>
   </v-navigation-drawer>
 </template>
 
@@ -32,74 +31,35 @@ export default {
 
 <style lang="scss">
 .v-navigation-drawer {
-  min-width: 38% !important;
-  .v-navigation-drawer__content {
-  }
-  .v-toolbar__content {
-    padding: 7px 30px !important;
-    button {
-      background-color: rgba(0, 0, 0, 0) !important;
-      &:before,
-      &:after {
-        background-color: rgba(0, 0, 0, 0) !important;
-      }
-      &:hover {
-        background-color: rgba(0, 0, 0, 0) !important;
-        &:before,
-        &:after {
-          background-color: rgba(0, 0, 0, 0) !important;
-        }
-      }
-    }
-  }
-  .drawer-background-image {
-    opacity: 0.02;
-    left: -20%;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  // drawer active default
-  a.v-list-item--active {
-    color: #fff !important;
-  }
-  // drawer level 1
-  .v-list-item,
-  .v-list-group .v-list-group__header {
-    font-family: 'PT Serif', sans-serif;
-    font-style: italic;
-    font-size: 1.5em;
-    font-weight: 700;
-    letter-spacing: 0.01em;
+  min-width: 50% !important;
 
-    padding: 7px 30px !important;
-    border-radius: 0 !important;
-    margin-bottom: 0 !important;
-    &:before {
-      display: none !important;
-    }
-  }
-  .v-list-group {
-    .v-list-group__header {
-      .v-list-item {
-        padding: 0 !important;
-      }
-      .v-list-group__header__append-icon {
-        color: #fff !important;
-      }
-    }
-    // level 2
-    .v-list-group__items {
-      border-top: 1px dashed #fff;
-      border-bottom: 1px dashed #fff;
+  #nav_mobile {
+    // #nav_mobile is shown, instead of #nav_default
+    .menu_content {
+      // > .menu_content : only custom styling for mobile nav
       a {
-        font-family: 'Fira Sans';
-        font-style: normal;
-        font-weight: 400;
-        text-transform: none;
-        letter-spacing: 0;
+        color: #fff !important;
+        padding: 0 1em;
         &.v-list-item--active {
-          color: #fff !important;
+          color: #000 !important;
+          &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 12px;
+            height: 12px;
+            top: 18px;
+            margin-left: 3px;
+            border: 1px solid #305596 !important;
+            border-top: 1px solid #000 !important;
+            border-right: 1px solid #000 !important;
+            border-radius: 0;
+            background-color: #305596;
+            opacity: 1;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
         }
       }
     }

@@ -16,17 +16,19 @@
           Datenschutzgrundverordnung (DSGVO).
         </p>
         <h3 class="pt-8">Verantwortlicher</h3>
+        <p><br />Prof. em. Dr. phil. Peter Trübner</p>
         <p>
-          <br />Prof. em. Dr. phil. Peter Trübner <br />
+          <span class="overline">Anschrift:</span><br />
           Alexander Moserstraße 32a<br />
           CH-2503 Biel/ Bienne <br />
           Schweiz
         </p>
         <p>
-          E-Mail: <a href="mail@petertruebner.ch">mail@petertruebner.ch</a>
+          <span class="overline"> E-Mail:</span>
+          <a href="mail@petertruebner.ch">mail@petertruebner.ch</a>
           <br />
-          Telefon: <a href="tel:+41323651422">0041 (0)32 365 14 22</a>
-          <br />Link zum
+          <span class="overline">Telefon:</span>
+          <a href="tel:+41323651422">0041 (0)32 365 14 22</a> <br />Link zum
           <nuxt-link to="/impressum">Impressum</nuxt-link>
         </p>
         <h3 class="pt-8">Arten der verarbeiteten Daten:</h3>

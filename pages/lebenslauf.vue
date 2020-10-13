@@ -5,12 +5,12 @@
         <h1>Lebenslauf</h1>
         <h2 class="text-right">Peter Trübner – Prof. emeritiert, Dr. phil.</h2>
         <v-img
-          src="/images/portrait_peter_truebner_large.jpg"
-          srcset="/images/portrait_peter_truebner_small.jpg 200w, /images/portrait_peter_truebner_large.jpg 1000w"
+          src="/portrait_peter_truebner_large.jpg"
+          srcset="/portrait_peter_truebner_small.jpg 600px, /portrait_peter_truebner_large.jpg 1000px"
           sizes="(max-width: 425px) 200px, 1000px"
           max-width="1000px"
           class="my-6"
-          alt="Prof. em., Dr. phil. Peter Trüber Biel/ Bienne Schweiz"
+          alt="Prof. em., Dr. phil. Peter Trübner Biel/ Bienne Schweiz"
         />
 
         <div id="cv">
@@ -93,6 +93,11 @@ export default {
   components: {
     LebenslaufEintrag,
   },
+  head() {
+    return {
+      title: ' | Lebenslauf',
+    }
+  },
 }
 </script>
 
@@ -101,13 +106,3 @@ export default {
   padding: 4em 0 0 0;
 }
 </style>
-
-<script>
-export default {
-  head() {
-    return {
-      title: ' | Lebenslauf',
-    }
-  },
-}
-</script>
