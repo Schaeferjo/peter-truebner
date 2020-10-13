@@ -73,7 +73,7 @@ export default {
       font: {
         family: false,
       },
-      icons: 'mdi'
+      icons: 'mdi',
     },
     theme: {
       themes: {

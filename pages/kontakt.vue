@@ -19,7 +19,7 @@
         </p>
         <p>
           <span class="overline">Telefon:</span>
-          <a href="mail@petertruebner.ch">mail@petertruebner.ch</a>
+          <a href="mailto:mail@petertruebner.ch">mail@petertruebner.ch</a>
           <br />
           <span class="overline">E-Mail:</span>
           <a href="tel:+41323651422">0041 (0)32 365 14 22</a>
@@ -41,7 +41,7 @@
                 class="pa-0"
               >
                 <v-text-field
-                  v-model="firstname"
+                  v-model="name"
                   :rules="nameRules"
                   label="Vor- und Nachname"
                   required
@@ -64,23 +64,10 @@
                   required
                 ></v-text-field>
 
-                <v-checkbox v-model="agb" :rules="agbRules" required>
-                  <template v-slot:label>
-                    <div>
-                      <div>
-                        Ich habe die Informationen zum
-                        <nuxt-link to="/datenschutz">Datenschutz</nuxt-link
-                        >&nbsp;gelesen und stimme diesem zu.
-                      </div>
-                    </div>
-                  </template>
-                </v-checkbox>
-
                 <v-btn
                   class="mr-4 mb-4"
                   depressed
                   :disabled="!valid"
-                  :loading="loading"
                   @click="submit"
                   >{{ 'Nachricht senden' }}</v-btn
                 >
@@ -98,32 +85,29 @@
 import mapboxgl from 'mapbox-gl'
 
 export default {
-  data: () => ({
-    valid: false,
-    firstname: '',
-    lastname: '',
-    nameRules: [
-      (v) => !!v || 'Name is required',
-      (v) => v.length <= 10 || 'Name must be less than 10 characters',
-    ],
-    email: '',
-    emailRules: [
-      (v) => !!v || 'E-mail is required',
-      (v) => /.+@.+/.test(v) || 'E-mail must be valid',
-    ],
-  }),
-
   data() {
     return {
       access_token:
         'pk.eyJ1Ijoiam9zZW4iLCJhIjoiY2llcXQ4aTd0MDEzaHZ4a21jejVrcHdyMiJ9.SPCThtA30WGuMPwFxju_8w',
       map: {},
+      valid: false,
+      name: '',
+      nameRules: [(v) => !!v || 'Name is required'],
+      email: '',
+      emailRules: [
+        (v) => !!v || 'E-mail is required',
+        (v) => /.+@.+/.test(v) || 'E-mail must be valid',
+      ],
     }
   },
   mounted() {
     this.createMap()
   },
   methods: {
+    submit() {
+      const { name, email } = this
+      alert(`${name}, ${email}`)
+    },
     createMap() {
       mapboxgl.accessToken = this.access_token
       this.map = new mapboxgl.Map({
