@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer v-model="drawer" temporary app color="#305596">
+  <v-navigation-drawer v-model="drawer" temporary app color="peter_blue">
     <template v-slot:img> </template>
 
     <v-toolbar flat color="transparent">

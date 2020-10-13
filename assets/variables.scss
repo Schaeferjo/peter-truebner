@@ -5,8 +5,6 @@
 
 
 
-$peter_blue: #305596;
-
 @import '~vuetify/src/styles/styles.sass';
 
 
@@ -38,9 +36,9 @@ $peter_blue: #305596;
          url('~assets/fonts/pt-sans-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('~assets/fonts/pt-sans-v11-latin-700.svg#PTSans') format('svg'); /* Legacy iOS */
   }
-  
-  
-  
+
+
+
   /* pt-serif-700italic - latin */
   @font-face {
   font-family: 'PT Serif';
@@ -54,16 +52,14 @@ $peter_blue: #305596;
        url('~assets/fonts/pt-serif-v11-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('~assets/fonts/pt-serif-v11-latin-700italic.svg#PTSerif') format('svg'); /* Legacy iOS */
   }
-  
+
   $body-font-family: 'PT Sans', sans-serif;
 
-
-  $peter_blue: #305596;
 
   :active, :focus{
      outline: none !important;
    }
-   
+
    ::selection {
      background: #305596; /* WebKit/Blink Browsers */
      color:#fff;
@@ -72,7 +68,7 @@ $peter_blue: #305596;
      background:#305596; /* Gecko Browsers */
      color:#fff;
    }
-   
+
 
   h1{
      font-family: 'PT Serif', sans-serif;
@@ -87,11 +83,11 @@ $peter_blue: #305596;
   font-size: 1.8em;
   color:#305596;
  }
-   
+
    h3{
      text-transform: uppercase;
    }
-   
+
    h4{
      font-family: 'PT Serif', sans-serif;
      font-style: italic;
@@ -99,10 +95,10 @@ $peter_blue: #305596;
      font-weight: 700;
      padding-bottom: 0.25em;
    }
-   
-   
 
-  
+
+
+
    .v-ripple__container {
      display:none !important;
  }

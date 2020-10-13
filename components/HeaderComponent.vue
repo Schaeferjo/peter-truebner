@@ -36,7 +36,7 @@
         aria-label="Open Drawer"
         @click.stop="toggleDrawer"
       >
-        <v-icon size="35" color="#305596">mdi-menu</v-icon>
+        <v-icon color="peter_blue" size="35">mdi-menu</v-icon>
       </v-app-bar-nav-icon>
 
       <div class="aside_right d-none d-md-block"></div>

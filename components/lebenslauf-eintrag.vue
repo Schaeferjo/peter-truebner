@@ -1,5 +1,6 @@
 <template>
   <v-container class="cv-item-wrap">
+
     <v-row class="cv-item">
       <v-col class="cv-item-date" cols="12" xs="12" sm="3">
         {{ date }}
