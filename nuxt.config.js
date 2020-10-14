@@ -1,4 +1,6 @@
+
 const description = 'Prof. em. Dr. phil. Peter Trübner'
+
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -20,7 +22,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: ['typeface-pt-serif', 'typeface-pt-sans'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
