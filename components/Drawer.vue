@@ -4,7 +4,7 @@
 
     <v-toolbar flat color="transparent">
       <v-spacer></v-spacer>
-      <v-btn icon @click.stop="toggleDrawer">
+      <v-btn icon class="ma-0" @click.stop="toggleDrawer">
         <v-icon color="#fff" size="40">mdi-close</v-icon>
       </v-btn>
     </v-toolbar>
@@ -31,7 +31,6 @@ export default {
 
 <style lang="scss">
 @media only screen and (max-width: 959px) {
-
   .v-navigation-drawer {
     min-width: 50% !important;
     .v-navigation-drawer__content {
@@ -59,8 +58,8 @@ export default {
               width: 12px;
               height: 12px;
               top: 0px;
-              left:-25px;
-              margin-right:-10px;
+              left: -25px;
+              margin-right: -10px;
               border: 1px solid #305596 !important;
               border-top: 1px solid #000 !important;
               border-right: 1px solid #000 !important;
@@ -76,6 +75,5 @@ export default {
       }
     }
   }
-
 }
 </style>

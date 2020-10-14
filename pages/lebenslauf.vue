@@ -9,7 +9,7 @@
           srcset="/portrait_peter_truebner_small.jpg 600px, /portrait_peter_truebner_large.jpg 1000px"
           sizes="(max-width: 425px) 200px, 1000px"
           max-width="1000px"
-          class="my-6"
+          class="my-6 mx-auto"
           alt="Prof. em., Dr. phil. Peter Trübner Biel/ Bienne Schweiz"
         />
 

@@ -8,13 +8,13 @@
       app
       clipped-left
     >
-      <div class="aside_left d-none d-md-block" align="right">
+      <div class="aside_left d-none d-md-block logo_wrap" align="right">
         <nuxt-link to="/">
           <v-img
             src="/logo_peter_truebner.svg"
             width="185px"
             max-width="185px"
-            height="120px"
+            height="85px"
             alt="Logo Prof. em. Dr. phil. Peter Trübner"
             class="d-none d-md-block logo_pt"
           />
@@ -25,7 +25,7 @@
           src="/logo_peter_truebner.svg"
           width="185px"
           max-width="185px"
-          height="120px"
+          height="85px"
           alt="Logo Prof. em. Dr. phil. Peter Trübner"
           class="d-md-none"
         />
@@ -55,6 +55,10 @@ export default {
 </script>
 
 <style lang="scss">
+.logo_wrap {
+  align-self: flex-end;
+}
+
 .logo_pt {
   margin-right: 130px;
 }
