@@ -60,6 +60,13 @@ export default {
     },
   },
 
+  pwa: {
+    meta: {
+      lang: 'de',
+      description,
+    },
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
   transpile: ['mapbox-gl-controls/lib/styles'],
