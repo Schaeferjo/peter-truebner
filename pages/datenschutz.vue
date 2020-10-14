@@ -231,9 +231,7 @@
           kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung
           erfolgen.
         </p>
-        <h3 class="pt-8">
-          Cookies und Widerspruchsrecht bei Direktwerbung
-        </h3>
+        <h3 class="pt-8">Cookies und Widerspruchsrecht bei Direktwerbung</h3>
         <p>
           Als „Cookies“ werden kleine Dateien bezeichnet, die auf Rechnern der
           Nutzer gespeichert werden. Innerhalb der Cookies können

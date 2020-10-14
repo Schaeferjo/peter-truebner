@@ -8,9 +8,7 @@
           Verantwortlich für die Webseite peter-truebner.ch nach § 5
           Telemediengesetz ist:
         </p>
-        <p>
-          Prof. em. Dr. phil. Peter Trübner
-        </p>
+        <p>Prof. em. Dr. phil. Peter Trübner</p>
         <p>
           <span class="overline">Anschrift:</span><br />
           Alexander Moserstraße 32a<br />

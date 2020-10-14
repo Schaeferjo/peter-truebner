@@ -61,18 +61,14 @@
         <h2 class="text-right">2. Beiträge</h2>
         <br />
         <h4>Sucht, Abstinenz und Ueberlebenshilfe.</h4>
-        <p class="overline">
-          Solothurner AZ, 17. April 1990, S. 21
-        </p>
+        <p class="overline">Solothurner AZ, 17. April 1990, S. 21</p>
         <p>
           Referat vor der FDP der Stadt Solothurn zum Thema: Drogenprobleme –
           wie weiter?
         </p>
         <p class="pb-16"></p>
         <h4>Die geflüchtet sind, kehren zurück.</h4>
-        <p class="overline">
-          Berner Tagwacht, 2. Dezember 1995, S. 2
-        </p>
+        <p class="overline">Berner Tagwacht, 2. Dezember 1995, S. 2</p>
         <p>
           Anhand der Biographie der Schweizer Jazzer Koch-Schütz-Studer stellt
           sich die Frage nach möglicher musikalischer Identität zwischen Jazz
@@ -80,9 +76,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Mythen machen süchtig.</h4>
-        <p class="overline">
-          Biel/Bienne 22./23: Mai 1996, S. 23
-        </p>
+        <p class="overline">Biel/Bienne 22./23: Mai 1996, S. 23</p>
         <p>
           Interview von Samia Guemei zu Fragen der Liberalisierung in der
           Drogenpolitik.
@@ -127,9 +121,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Endzeit</h4>
-        <p class="overline">
-          Basler Magazin Nr. 29, 19. Juli 1997, S. 6 + 7
-        </p>
+        <p class="overline">Basler Magazin Nr. 29, 19. Juli 1997, S. 6 + 7</p>
         <p>
           Katastrophen haben Konjunktur, der Untergang ist die Stimmung der
           Zeit. Im gleichen Mass wie die Prophezeiungen des Nostradamus breitet
@@ -138,9 +130,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Was bringt Primärprävention?</h4>
-        <p class="overline">
-          SuchtReport Nr. 5, Berlin 1997, S. 44 - 47
-        </p>
+        <p class="overline">SuchtReport Nr. 5, Berlin 1997, S. 44 - 47</p>
         <p>
           In der Schweiz und in Deutschland wurden seit den späten 80er Jahren
           die Massnahmen in den Schulen zur Primärprävention des Drogenkonsums
@@ -151,9 +141,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Wenn der Geist ohne Körper auskommen will.</h4>
-        <p class="overline">
-          Basler Magazin Nr. 9, 7.3.1998, S. 6 + 7
-        </p>
+        <p class="overline">Basler Magazin Nr. 9, 7.3.1998, S. 6 + 7</p>
         <p>
           Ausgeleerte Körper, die von überfüllten Gehirnen gedrängt werden, sind
           ein Bild für den jetzigen Status des Menschen. Die Software des
@@ -164,9 +152,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Mehr Arbeit oder keine Arbeit mehr.</h4>
-        <p class="overline">
-          Basler Magazin Nr. 19, 16.5.1998, S. 6 + 7
-        </p>
+        <p class="overline">Basler Magazin Nr. 19, 16.5.1998, S. 6 + 7</p>
         <p>
           Die Diskussion über die Arbeit bewegt so viele Menschen, weil sie alle
           angeht. Geht uns die Arbeit aus? Diese Frage muss heute in einer neuen
@@ -177,9 +163,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Die Mechanismen unseres Konsumverhaltens</h4>
-        <p class="overline">
-          SuchtReport, Nr. 4, Berlin 1998, S. 29 - 36
-        </p>
+        <p class="overline">SuchtReport, Nr. 4, Berlin 1998, S. 29 - 36</p>
         <p>
           Auf den ersten Blick haben Gebraucher illegaler Drogen mit der übrigen
           Gesellschaft nicht viel gemein. Doch auf den zweiten Blick zeigt sich,
@@ -190,9 +174,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Die Arbeit begreifen, um Begriffe zu bilden.</h4>
-        <p class="overline">
-          Basler Magazin Nr. 5, 6.2.1999, S. 6 + 7
-        </p>
+        <p class="overline">Basler Magazin Nr. 5, 6.2.1999, S. 6 + 7</p>
         <p>
           Ein zentraler Begriff der Aneignung von Realität durch Menschen ist
           Arbeit. Die materielle Welt ergreifen heisst auch, sie begreifen.
@@ -203,9 +185,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Utopie der Poiesis.</h4>
-        <p class="overline">
-          Basler Magazin Nr. 48, 11.12.1999, S. 7
-        </p>
+        <p class="overline">Basler Magazin Nr. 48, 11.12.1999, S. 7</p>
         <p>
           Die Globalisierung ist ein Prozess, der sich nicht aufhalten lässt.
           Globalisierung betreibt, dass die Wirtschaft sich über sämtliche
@@ -215,9 +195,7 @@
         </p>
         <p class="pb-16"></p>
         <h4>Wenn Soziologie zum Beruf wird.</h4>
-        <p class="overline">
-          Basler Magazin Nr. 3, 22.1.2000, S. 7
-        </p>
+        <p class="overline">Basler Magazin Nr. 3, 22.1.2000, S. 7</p>
         <p>
           In den letzten Jahren häufen sich die Vorwürfe gegen den französischen
           Soziologen Pierre Bourdieu. Wissenschaftlich sind die Argumente seiner
@@ -290,9 +268,7 @@
         <h4>
           „Medien“ Artikel im Wörterbuch der Sozialarbeit und Sozialpolitik
         </h4>
-        <p class="overline">
-          Seismo Verlag, Zürich 2003
-        </p>
+        <p class="overline">Seismo Verlag, Zürich 2003</p>
         <p>
           Ausgehend von der Funktion der jeweils neuen Medien in menschlichen
           Gesellschaften wird die Bedeutung von Medien für die Entwicklung von
@@ -305,9 +281,7 @@
           „Zum Geleit“ in Barbara Bienz, Arlette Reinmann: Sozialarbeit im
           Krankenhaus.
         </h4>
-        <p class="overline">
-          Haupt Verlag, Bern 2004
-        </p>
+        <p class="overline">Haupt Verlag, Bern 2004</p>
         <p>
           Überblick über die Inhalte des Buches, das ich als Diplomarbeit
           betreute, und dessen Stellenwert für die Entwicklung der Profession

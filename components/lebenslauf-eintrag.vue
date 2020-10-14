@@ -65,17 +65,14 @@ export default {
   }
 }
 
-
 @media only screen and (max-width: 599px) {
-
-.cv-item-date {
-
-  border-right: 1px solid #ccc !important;
+  .cv-item-date {
+    border-right: 1px solid #ccc !important;
     &:before {
       content: '';
       display: block;
       position: absolute;
-      right:1.15em;
+      right: 1.15em;
       width: 9px;
       height: 9px;
       border-radius: 100%;
@@ -83,17 +80,15 @@ export default {
       background-color: #fff;
       margin-left: calc(-2em - 5px);
       margin-top: 8px;
+    }
   }
-}
 
-.cv-item-content {
-  border-left:none;
-  border-right: 1px solid #ccc;
-  &:before {
-    display:none;
+  .cv-item-content {
+    border-left: none;
+    border-right: 1px solid #ccc;
+    &:before {
+      display: none;
+    }
   }
-}
-
-
 }
 </style>
