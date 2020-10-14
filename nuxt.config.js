@@ -1,6 +1,4 @@
-
 const description = 'Prof. em. Dr. phil. Peter Trübner'
-
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)

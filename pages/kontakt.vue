@@ -12,21 +12,23 @@
         <h3 class="pb-3">Prof. em. Dr. phil. Peter Trübner</h3>
 
         <p>
-          <span class="overline">Anschrift:</span><br />
+          <span class="overline font-weight-bold">Anschrift:</span><br />
           Alexander Moserstraße 32a<br />
           CH-2503 Biel/ Bienne <br />
           Schweiz
         </p>
         <p>
-          <span class="overline">Telefon:</span>
-          <a href="mailto:mail@petertruebner.ch">mail@petertruebner.ch</a>
-          <br />
-          <span class="overline">E-Mail:</span>
+          <span class="overline font-weight-bold">Telefon:</span>
           <a href="tel:+41323651422">0041 (0)32 365 14 22</a>
+
+          <br />
+          <span class="overline font-weight-bold">E-Mail:</span>
+          <a href="mailto:mail@petertruebner.ch">mail@petertruebner.ch</a>
         </p>
       </v-col>
       <v-col cols="12" xs="12" sm="12" md="12" lg="6" xl="6">
         <!-- -->
+
         <h3 class="pb-3">Kontaktformular</h3>
         <v-form v-model="valid">
           <v-container>
@@ -71,6 +73,12 @@
                   @click="submit"
                   >{{ 'Nachricht senden' }}</v-btn
                 >
+                <p class="py-4">
+                  <code
+                    >Ist ein Kontaktformular gewünscht, oder reicht einfach ein
+                    Maillink?</code
+                  >
+                </p>
               </v-col>
             </v-row>
           </v-container>

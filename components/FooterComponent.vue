@@ -25,15 +25,26 @@
         </div>
         <div>
           <p class="ma-0">
-            <span class="overline">Telefon: </span
-            ><a href="mail@petertruebner.ch">mail@petertruebner.ch</a>
+            <span class="overline font-weight-bold">Telefon:</span>
+
+            <a href="tel:+41323651422" class="text-decoration-none"
+              >0041 (0)32 365 14 22</a
+            >
             <br />
-            <span class="overline">E-Mail:</span>
-            <a href="tel:+41323651422">0041 (0)32 365 14 22</a>
+            <span class="overline font-weight-bold">E-Mail:</span>
+            <a href="mailto:mail@petertruebner.ch" class="text-decoration-none"
+              >mail@petertruebner.ch</a
+            >
           </p>
           <p class="pt-1 ma-0">
-            <nuxt-link to="/impressum">Impressum</nuxt-link> |
-            <nuxt-link to="/datenschutz">Datenschutz</nuxt-link> | Copyright
+            <nuxt-link to="/impressum" class="text-decoration-none"
+              >Impressum</nuxt-link
+            >
+            |
+            <nuxt-link to="/datenschutz" class="text-decoration-none"
+              >Datenschutz</nuxt-link
+            >
+            | Copyright
             {{ new Date().getFullYear() }}
           </p>
         </div>
@@ -55,15 +66,28 @@
           </v-col>
           <v-col cols="12" sm="7" class="text-center text-sm-left">
             <p class="ma-0">
-              <span class="overline">Telefon: </span
-              ><a href="mail@petertruebner.ch">mail@petertruebner.ch</a>
+              <span class="overline font-weight-bold">Telefon:</span>
+
+              <a href="tel:+41323651422" class="text-decoration-none"
+                >0041 (0)32 365 14 22</a
+              >
               <br />
-              <span class="overline">E-Mail:</span>
-              <a href="tel:+41323651422">0041 (0)32 365 14 22</a>
+              <span class="overline font-weight-bold">E-Mail:</span>
+              <a
+                href="mailto:mail@petertruebner.ch"
+                class="text-decoration-none"
+                >mail@petertruebner.ch</a
+              >
             </p>
             <p class="pt-1 ma-0">
-              <nuxt-link to="/impressum">Impressum</nuxt-link> |
-              <nuxt-link to="/datenschutz">Datenschutz</nuxt-link> | Copyright
+              <nuxt-link to="/impressum" class="text-decoration-none"
+                >Impressum</nuxt-link
+              >
+              |
+              <nuxt-link to="/datenschutz" class="text-decoration-none"
+                >Datenschutz</nuxt-link
+              >
+              | Copyright
               {{ new Date().getFullYear() }}
             </p>
           </v-col>
@@ -73,7 +97,10 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+a {
+  color: #000 !important;
+}
 .custom_footer_wrap {
   .custom_footer_first_row {
     display: flex;
