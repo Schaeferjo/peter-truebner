@@ -932,6 +932,11 @@
   resolved "https://registry.yarnpkg.com/@mapbox/whoots-js/-/whoots-js-3.1.0.tgz#497c67a1cef50d1a2459ba60f315e448d2ad87fe"
   integrity sha512-Es6WcD0nO5l+2BOQS4uLfNPYQaNDfbot3X1XUoloz+x0mPDS3eeORZJl06HXjwBG1fOGwCRnzK88LMdxKRrd6Q==
 
+"@mdi/js@^5.7.55":
+  version "5.7.55"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-5.7.55.tgz#c3b487131755c726df1802a10ef72096b2de4c2f"
+  integrity sha512-fxOEaPPn4hTlNpUG7VzmleYiK8lilON8dw1g8U42OAILtIu2+knfEjguspfVNtS5aJu1zP+DBeoxbsGhIUZcEw==
+
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.3.tgz#3a582bdb53804c6ba6d146579c46e52130cf4a3b"
@@ -4094,6 +4099,16 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+fontsource-pt-sans@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-pt-sans/-/fontsource-pt-sans-3.0.9.tgz#73dcfd28c99ed7482468d97e0df139be0d5dbd08"
+  integrity sha512-gnKxKF4a7MKrg3RY9A95BCB5q+D1YMo+YksYGc36Vi9HKbLmegOiwlMj4LIyj3SgvA7dXa1mRptPaAqKlMRYmg==
+
+fontsource-pt-serif@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-pt-serif/-/fontsource-pt-serif-3.0.9.tgz#a9683d5ac3a02493908ba4ff0f813d7f4b65ad19"
+  integrity sha512-77GVU9AxJST26a81JUa1hmufLA6WOfz1wtYpPFa5HRTRzTugRNblrxe9pUh2oMTrlanOwJDbAR0516VnAN2e7w==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -8365,16 +8380,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typeface-pt-sans@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-pt-sans/-/typeface-pt-sans-1.1.13.tgz#ae4ae13028bbad07173aafceb141912c48e3bcfe"
-  integrity sha512-x7FsHrKhbanfwRF0UkRI7UuQqUHUw4yPJJ4T9+0JODSVHM2q607IgF0Kifdvw4echLlVAdwOYibObD+GS5UN6w==
-
-typeface-pt-serif@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-pt-serif/-/typeface-pt-serif-1.1.13.tgz#5ce7d20b3e8dcdc299c48fc98867878616a06db2"
-  integrity sha512-37MoOU/92sONmjprYTffl4/1Vq+CTL11iGr+54R3F9VAVFSA53aZmCHyDO2PLLGKmg5hHiLxU4JcxRYNfvx8rA==
 
 ua-parser-js@^0.7.22:
   version "0.7.22"

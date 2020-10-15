@@ -20,7 +20,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['typeface-pt-serif', 'typeface-pt-sans'],
+  css: ['fontsource-pt-serif', 'fontsource-pt-sans'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -45,10 +45,8 @@ export default {
     treeShake: true,
     customVariables: ['~/assets/variables.scss'],
     defaultAssets: {
-      font: {
-        family: false,
-      },
-      icons: 'mdi',
+      font: false,
+      icons: 'mdiSvg',
     },
     theme: {
       themes: {

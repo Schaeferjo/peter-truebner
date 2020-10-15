@@ -5,7 +5,7 @@
     <v-toolbar flat color="transparent">
       <v-spacer></v-spacer>
       <v-btn icon class="ma-0" @click.stop="toggleDrawer">
-        <v-icon color="#fff" size="40">mdi-close</v-icon>
+        <v-icon color="#fff" size="40">{{ mdiClose }}</v-icon>
       </v-btn>
     </v-toolbar>
     <v-list id="nav_mobile" flat nav class="px-0">
@@ -15,9 +15,12 @@
 </template>
 
 <script>
+import { mdiClose } from '@mdi/js'
+
 export default {
   data() {
     return {
+      mdiClose,
       drawer: false,
     }
   },

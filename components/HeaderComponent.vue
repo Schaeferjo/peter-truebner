@@ -36,7 +36,7 @@
         aria-label="Open Drawer"
         @click.stop="toggleDrawer"
       >
-        <v-icon color="peter_blue" size="40">mdi-menu</v-icon>
+        <v-icon color="peter_blue" size="40">{{ mdiMenu }}</v-icon>
       </v-app-bar-nav-icon>
 
       <div class="aside_right d-none d-md-block"></div>
@@ -45,7 +45,12 @@
 </template>
 
 <script>
+import { mdiMenu } from '@mdi/js'
+
 export default {
+  data() {
+    return { mdiMenu }
+  },
   methods: {
     toggleDrawer() {
       this.$emit('toggleDrawer')
