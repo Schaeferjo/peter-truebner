@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h1 class="pb-3">Impressum</h1>
+        <h1 class="pb-6">Impressum</h1>
 
         <p>
           Verantwortlich für die Webseite peter-truebner.ch nach § 5

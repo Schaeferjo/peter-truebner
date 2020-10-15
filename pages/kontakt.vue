@@ -2,13 +2,13 @@
   <v-container>
     <v-row>
       <v-col class="pb-10"
-        ><h1 class="pb-3">Kontakt</h1>
+        ><h1 class="pb-6">Kontakt</h1>
 
         <div id="map"></div>
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="6" xl="6" class="pb-12">
+      <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h3 class="pb-3">Prof. em. Dr. phil. Peter Trübner</h3>
 
         <p>
@@ -26,65 +26,6 @@
           <a href="mailto:mail@petertruebner.ch">mail@petertruebner.ch</a>
         </p>
       </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="6" xl="6">
-        <!-- -->
-
-        <h3 class="pb-3">Kontaktformular</h3>
-        <v-form v-model="valid">
-          <v-container>
-            <v-row>
-              <v-col
-                cols="12"
-                xs="12"
-                sm="7"
-                md="12"
-                lg="12"
-                xl="12"
-                class="pa-0"
-              >
-                <v-text-field
-                  v-model="name"
-                  :rules="nameRules"
-                  label="Vor- und Nachname"
-                  required
-                ></v-text-field>
-              </v-col>
-
-              <v-col
-                cols="12"
-                xs="12"
-                sm="7"
-                md="12"
-                lg="12"
-                xl="12"
-                class="pa-0"
-              >
-                <v-text-field
-                  v-model="email"
-                  :rules="emailRules"
-                  label="E-Mail"
-                  required
-                ></v-text-field>
-
-                <v-btn
-                  class="mr-4 mb-4"
-                  depressed
-                  :disabled="!valid"
-                  @click="submit"
-                  >{{ 'Nachricht senden' }}</v-btn
-                >
-                <p class="py-4">
-                  <code
-                    >Ist ein Kontaktformular gewünscht, oder reicht einfach ein
-                    Maillink?</code
-                  >
-                </p>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-form>
-        <!--- --->
-      </v-col>
     </v-row>
   </v-container>
 </template>
@@ -98,24 +39,12 @@ export default {
       access_token:
         'pk.eyJ1Ijoiam9zZW4iLCJhIjoiY2llcXQ4aTd0MDEzaHZ4a21jejVrcHdyMiJ9.SPCThtA30WGuMPwFxju_8w',
       map: {},
-      valid: false,
-      name: '',
-      nameRules: [(v) => !!v || 'Name is required'],
-      email: '',
-      emailRules: [
-        (v) => !!v || 'E-mail is required',
-        (v) => /.+@.+/.test(v) || 'E-mail must be valid',
-      ],
     }
   },
   mounted() {
     this.createMap()
   },
   methods: {
-    submit() {
-      const { name, email } = this
-      alert(`${name}, ${email}`)
-    },
     createMap() {
       mapboxgl.accessToken = this.access_token
       this.map = new mapboxgl.Map({
@@ -127,11 +56,9 @@ export default {
         maxZoom: 20,
       })
       this.map.addControl(new mapboxgl.NavigationControl())
-
       new mapboxgl.Marker({
         color: '#305596',
       })
-
         .setLngLat([7.2504221, 47.1272345])
         .addTo(this.map)
     },

@@ -156,7 +156,7 @@ export default {
 
 .custom_main {
   width: 60% !important;
-  padding: 20px 2em 3em 2em;
+  padding: 20px 5em 3em 5em;
 }
 
 .v-divider {
@@ -167,7 +167,13 @@ export default {
 @media only screen and (max-width: 959px) {
   .custom_main {
     width: 100% !important;
-    padding: 20px 1.5em 3em 1.5em !important;
+    padding: 20px 1em 3em 1em !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #deko_square {
+    top: 175px;
   }
 }
 </style>

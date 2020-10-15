@@ -32,7 +32,7 @@
       </nuxt-link>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon
-        class="d-md-none mt-6"
+        class="d-md-none"
         aria-label="Open Drawer"
         @click.stop="toggleDrawer"
       >
@@ -70,6 +70,12 @@ export default {
 @media only screen and (max-width: 959px) {
   .v-toolbar__content {
     padding: 0 2.2em !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .v-toolbar__content {
+    padding: 0 1em !important;
   }
 }
 </style>

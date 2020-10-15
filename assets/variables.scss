@@ -55,3 +55,24 @@ h4{
 a{
   color: #305596!important;
 }
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+
+  h1{
+    font-size: 2em;
+    -moz-hyphens: auto !important;
+    -o-hyphens: auto !important;
+    -webkit-hyphens: auto !important;
+    -ms-hyphens: auto !important;
+    hyphens: auto !important;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+}

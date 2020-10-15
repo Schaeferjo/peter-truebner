@@ -4,15 +4,19 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1>Lebenslauf</h1>
         <h2 class="text-right py-6">
-          Peter Trübner – Prof. emeritiert, Dr. phil.
+          Peter Trübner <span class="dont_show">– </span
+          ><span class="show_as_block">Prof. emeritiert, Dr. phil.</span>
         </h2>
         <v-img
-          src="/portrait_peter_truebner_large.jpg"
-          srcset="/portrait_peter_truebner_small.jpg 600px, /portrait_peter_truebner_large.jpg 1000px"
-          sizes="(max-width: 425px) 200px, 1000px"
-          max-width="1000px"
-          class="my-6 mx-auto"
-          alt="Prof. em., Dr. phil. Peter Trübner Biel/ Bienne Schweiz"
+          src="/images/portrait_peter_truebner_large.jpg"
+          srcset="/images/portrait_peter_truebner_small.jpg 959w,
+            /images/portrait_peter_truebner_large.jpg 1264w"
+          sizes="
+                (min-width:600px) 90vw,   
+                (min-width:960px) 60vw, 
+                100vw"
+          alt="HTML img srcset – Bilder je nach Breite des Viewports laden"
+          cover
         />
 
         <div id="cv">
@@ -106,5 +110,14 @@ export default {
 <style lang="scss">
 #cv {
   padding: 4em 0 0 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .show_as_block {
+    display: block;
+  }
+  .dont_show {
+    display: none;
+  }
 }
 </style>
