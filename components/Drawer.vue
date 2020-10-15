@@ -40,7 +40,7 @@ export default {
       header.v-toolbar {
         .v-toolbar__content {
           // row with close icon
-          padding: 2.5em 2em !important;
+          padding: 2.5em 1em !important;
         }
       }
     }

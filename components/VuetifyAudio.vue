@@ -58,12 +58,13 @@
       </v-btn>
       <v-progress-linear
         v-model="percentage"
+        color="peter_blue"
         height="5"
         style="margin-top: 15px; margin-bottom: 15px"
         :disabled="!loaded"
         @click.native="setPosition()"
       ></v-progress-linear>
-      <p>{{ currentTime }} / {{ duration }}</p>
+      <p class="#ccc--text">{{ currentTime }} / {{ duration }}</p>
     </v-card-text>
     <audio
       id="player"

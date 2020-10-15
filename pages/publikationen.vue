@@ -9,7 +9,7 @@
         <p class="overline">Veröffentlicht am XX.XX.XXXX, Quelle: abcdef</p>
         <vuetify-audio
           :file="file"
-          color="primary"
+          color="peter_blue"
           :ended="audioFinish"
           downloadable
           flat

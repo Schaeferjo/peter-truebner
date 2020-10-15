@@ -72,7 +72,7 @@ export default {
       content: '';
       display: block;
       position: absolute;
-      right: 1.15em;
+      right: 0.75em;
       width: 9px;
       height: 9px;
       border-radius: 100%;
