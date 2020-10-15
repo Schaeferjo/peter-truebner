@@ -7,16 +7,21 @@
           Peter Trübner <span class="dont_show">– </span
           ><span class="show_as_block">Prof. emeritiert, Dr. phil.</span>
         </h2>
-        <v-img
-          src="/images/portrait_peter_truebner_large.jpg"
-          srcset="/images/portrait_peter_truebner_small.jpg 959w,
-            /images/portrait_peter_truebner_large.jpg 1264w"
-          sizes="
-                (min-width:600px) 90vw,   
-                (min-width:960px) 60vw, 
-                100vw"
+        <img
+          src="https://www.mediaevent.de/html/img/needles-1440.jpg"
+          srcset="
+            https://www.mediaevent.de/html/img/needles-780.jpg   780w,
+            https://www.mediaevent.de/html/img/needles-1024.jpg 1024w,
+            https://www.mediaevent.de/html/img/needles-1440.jpg 1440w,
+            https://www.mediaevent.de/html/img/needles-2400.jpg 2400w
+          "
+          sizes="(min-width: 1600px) 1200px, // ViewPort mindestens 1600 px, nimm Bild mit 1200px Breite
+               (min-width: 1400px) 1100px,  // ViewPort mindestens 1400 px, nimm Bild mit 1100px Breite
+               (min-width:1000px) 900px,    // ViewPort mindestens 1000 px (links), nimm Bild mit 900px (rechts) Breite
+               100vw"
+          width="780"
+          height="521"
           alt="HTML img srcset – Bilder je nach Breite des Viewports laden"
-          cover
         />
 
         <div id="cv">

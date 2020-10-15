@@ -20,7 +20,12 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['fontsource-pt-serif', 'fontsource-pt-sans'],
+  css: [
+    'fontsource-pt-serif/latin-700-italic.css',
+    'fontsource-pt-sans/latin-400-normal.css',
+    'fontsource-pt-sans/latin-700-normal.css',
+    'vuetify/dist/vuetify.min.css',
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],

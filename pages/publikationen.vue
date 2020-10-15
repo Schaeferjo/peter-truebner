@@ -3,7 +3,20 @@
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1>Publikationen</h1>
-        <h2 class="text-right py-6">1. Bücher</h2>
+        <h2 class="text-right py-6">1. Audio</h2>
+
+        <h4>Ein Interview über das Thema XYZ</h4>
+        <p class="overline">Veröffentlicht am XX.XX.XXXX, Quelle: abcdef</p>
+        <vuetify-audio
+          :file="file"
+          color="primary"
+          :ended="audioFinish"
+          downloadable
+          flat
+        ></vuetify-audio>
+        <v-divider></v-divider>
+
+        <h2 class="text-right py-6">2. Bücher</h2>
         <br />
         <h4>
           Das zerstörte Ich. Heroinsüchtige zwischen Bestrafung und Betreuung.
@@ -58,7 +71,7 @@
           sich seit 1968 verändert hat.
         </p>
         <v-divider></v-divider>
-        <h2 class="text-right">2. Beiträge</h2>
+        <h2 class="text-right">3. Beiträge</h2>
         <br />
         <h4>Sucht, Abstinenz und Ueberlebenshilfe.</h4>
         <p class="overline">Solothurner AZ, 17. April 1990, S. 21</p>
@@ -402,7 +415,14 @@
 </template>
 
 <script>
+import VuetifyAudio from '../components/VuetifyAudio.vue'
 export default {
+  components: {
+    VuetifyAudio,
+  },
+  data: () => ({
+    file: 'http://www.hochmuth.com/mp3/Boccherini_Concerto_478-1.mp3',
+  }),
   head() {
     return {
       title: ' | Publikationen',

@@ -4736,6 +4736,11 @@ inquirer@^7.3.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
+install@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/install/-/install-0.13.0.tgz#6af6e9da9dd0987de2ab420f78e60d9c17260776"
+  integrity sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==
+
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
@@ -8715,6 +8720,11 @@ vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
+
+vuetify-audio@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/vuetify-audio/-/vuetify-audio-0.3.3.tgz#f58d4a1388e449e6ccc6ad72c2c2191492480eb5"
+  integrity sha512-rosL1YrjwCfbVOgLoH91Bd7Ea6JLdGr5hMWrXH683i68DWFxftMB9eLjbr+RH1tm4n+hDnVGscIw358yf1RlFw==
 
 vuetify-loader@^1.4.3:
   version "1.6.0"
