@@ -12,8 +12,8 @@
         <nuxt-link to="/">
           <v-img
             src="/logo_peter_truebner.svg"
-            width="185px"
-            max-width="185px"
+            width="180px"
+            max-width="180px"
             height="85px"
             alt="Logo Prof. em. Dr. phil. Peter Trübner"
             class="d-none d-md-block logo_pt"
@@ -23,8 +23,8 @@
       <nuxt-link to="/">
         <v-img
           src="/logo_peter_truebner.svg"
-          width="185px"
-          max-width="185px"
+          width="180px"
+          max-width="180px"
           height="85px"
           alt="Logo Prof. em. Dr. phil. Peter Trübner"
           class="d-md-none"

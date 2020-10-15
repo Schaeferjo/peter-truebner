@@ -58,8 +58,8 @@
           <v-col cols="12" sm="5" justify="center" align="center">
             <v-img
               src="/logo_peter_truebner_inverted.svg"
-              width="185px"
-              max-width="185px"
+              width="180px"
+              max-width="180px"
               height="85px"
               alt="Logo Prof. em. Dr. phil. Peter Trübner"
             />
