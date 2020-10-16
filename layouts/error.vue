@@ -1,32 +1,16 @@
 <template>
   <v-container>
-    <v-row class="pb-xs-6">
-      <v-col cols="12"> </v-col>
-      <v-col
-        cols="12"
-        xs="12"
-        sm="8"
-        offset-sm="4"
-        md="8"
-        offset-md="4"
-        lg="8"
-        offset-lg="4"
-        xl="8"
-        offset-xl="4"
-      >
-        <v-card rounded="0" flat color="secondary">
-          <v-card-title v-if="error.statusCode === 404" class="text-h2">
-            {{ pageNotFound }}
-          </v-card-title>
-          <v-card-title v-else class="text-h2">{{ otherError }}</v-card-title>
-          <v-card-text>
-            <p>Ups ... Da ist was schiefgelaufen.</p>
-            <p>
-              Möchten Sie zurück zur
-              <nuxt-link to="/">Startseite</nuxt-link>?
-            </p>
-          </v-card-text>
-        </v-card>
+    <v-row>
+      <v-col class="pb-10"
+        ><h1>Uuuuuuuups ...</h1>
+        <h2 v-if="error.statusCode === 404">{{ pageNotFound }}</h2>
+        <h2 v-else>{{ otherError }}</h2>
+
+        <p>
+          Da ist was schiefgelaufen.<br />
+          Möchten Sie zurück zur
+          <nuxt-link to="/">Startseite</nuxt-link>?
+        </p>
       </v-col>
     </v-row>
   </v-container>
