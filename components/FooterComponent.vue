@@ -16,8 +16,8 @@
         <div class="aside_left" align="right">
           <v-img
             src="/logo_peter_truebner_inverted.svg"
-            width="165px"
-            max-width="165px"
+            width="180px"
+            max-width="180px"
             height="85px"
             alt="Logo Prof. em. Dr. phil. Peter Trübner"
             class="logo_pt"
