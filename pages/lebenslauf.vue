@@ -4,7 +4,7 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1>Lebenslauf</h1>
         <h2 class="text-right py-6">
-          Peter Trübner – Prof. emeritiert, Dr. phil.
+          Peter Trübner<br />Prof. emeritiert, Dr. phil.
         </h2>
         <v-img
           src="/pt_1000x540.jpg"

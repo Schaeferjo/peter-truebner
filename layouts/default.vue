@@ -55,7 +55,7 @@ export default {
 
 #deko_square {
   position: absolute;
-  top: 180px;
+  top: 200px;
   right: -20px;
   width: 30px;
   height: 30px;
@@ -75,7 +75,7 @@ export default {
     height: 100%;
     display: flex;
     .aside_menu_wrap {
-      padding: 95px 0em 1em 0em;
+      padding: 95px 0em 3em 0em;
       align-self: start;
       //
     }
@@ -164,6 +164,12 @@ export default {
   padding-bottom: 3em;
 }
 
+@media only screen and (max-width: 1263px) {
+  .custom_main {
+    padding: 20px 3em 3em 3em !important;
+  }
+}
+
 @media only screen and (max-width: 959px) {
   .custom_main {
     width: 100% !important;
@@ -173,7 +179,7 @@ export default {
 
 @media only screen and (max-width: 599px) {
   #deko_square {
-    top: 175px;
+    top: 185px;
   }
 }
 </style>

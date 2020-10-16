@@ -1,10 +1,10 @@
 <template>
   <v-container class="cv-item-wrap">
     <v-row class="cv-item">
-      <v-col class="cv-item-date" cols="12" xs="12" sm="3">
+      <v-col class="cv-item-date" cols="12" xs="12" sm="4">
         {{ date }}
       </v-col>
-      <v-col class="cv-item-content" cols="12" xs="12" sm="9">
+      <v-col class="cv-item-content" cols="12" xs="12" sm="8">
         <slot></slot>
       </v-col>
     </v-row>
@@ -43,13 +43,14 @@ export default {
   text-align: right;
   font-weight: 700; /* bold */
   font-size: 1.1em;
+  line-height: 1.4em;
   padding: 0 2em;
   letter-spacing: 0;
 }
 
 .cv-item-content {
   text-align: left;
-  padding: 3px 1em 3em 2em;
+  padding: 5px 1em 3em 2em;
   border-left: 1px solid #ccc;
   &:before {
     content: '';
@@ -61,7 +62,7 @@ export default {
     border: 1px solid #ccc;
     background-color: #fff;
     margin-left: calc(-2em - 5px);
-    margin-top: 5px;
+    margin-top: 10px;
   }
 }
 
@@ -72,7 +73,7 @@ export default {
       content: '';
       display: block;
       position: absolute;
-      right: 0.75em;
+      right: 0.7em;
       width: 9px;
       height: 9px;
       border-radius: 100%;
