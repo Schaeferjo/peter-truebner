@@ -4,7 +4,7 @@
       <div class="custom_footer_first_row">
         <div class="aside_left" align="right">
           <v-img
-            src="/images/footer_foto.jpg"
+            src="/footer_foto.jpg"
             width="150px"
             height="150px"
             alt="Logo Prof. em. Dr. phil. Peter Trübner"

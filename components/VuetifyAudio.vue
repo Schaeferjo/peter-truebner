@@ -64,7 +64,7 @@
         :disabled="!loaded"
         @click.native="setPosition()"
       ></v-progress-linear>
-      <p class="#ccc--text">{{ currentTime }} / {{ duration }}</p>
+      <p class="#000--text">{{ currentTime }} / {{ duration }}</p>
     </v-card-text>
     <audio
       id="player"

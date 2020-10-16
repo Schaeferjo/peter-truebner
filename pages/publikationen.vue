@@ -10,7 +10,6 @@
         <vuetify-audio
           :file="file"
           color="peter_blue"
-          :ended="audioFinish"
           downloadable
           flat
         ></vuetify-audio>

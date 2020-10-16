@@ -7,11 +7,11 @@
           Peter Trübner – Prof. emeritiert, Dr. phil.
         </h2>
         <v-img
-          src="images/pt_1000x540.jpg"
+          src="/pt_1000x540.jpg"
           srcset="
-            images/pt_1000x540.jpg 1000w,
-            images/pt_750x405.jpg 750w,
-            images/pt_400x216.jpg 400w"
+            /pt_1000x540.jpg 1000w,
+            /pt_750x405.jpg 750w,
+            /pt_400x216.jpg 400w"
           sizes="(min-width: 1600px) 1200px, // ViewPort mindestens 1600 px, nimm Bild mit 1200px Breite
                (min-width: 1400px) 1100px,  // ViewPort mindestens 1400 px, nimm Bild mit 1100px Breite
                (min-width:100px) 900px,    // ViewPort mindestens 1000 px (links), nimm Bild mit 900px (rechts) Breite
