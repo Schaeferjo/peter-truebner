@@ -5,24 +5,34 @@
 
 
 $body-font-family: 'PT Sans', sans-serif;
+$font-size-root: 18px !default;
+$line-height-root: 2 !default;
+$border-radius-root: 0px !default;
+
+$color-pack: false;
+
+
+
+
+
+
+
 @import '~vuetify/src/styles/styles.sass';
 
 
 
-body{
-  font-family: 'PT Sans', sans-serif;
-}
+
 
 :active, :focus{
   outline: none !important;
 }
 
 ::selection {
-  background: #305596; /* WebKit/Blink Browsers */
+  background: #305596; 
   color:#fff;
 }
 ::-moz-selection {
-  background:#305596; /* Gecko Browsers */
+  background:#305596; 
   color:#fff;
 }
 
@@ -62,8 +72,6 @@ a{
 
 
 
-
-
 @media only screen and (max-width: 599px) {
 
   h1{
@@ -74,7 +82,6 @@ a{
     -ms-hyphens: auto !important;
     hyphens: auto !important;
   }
-
   h2{
     font-size: 1.5em;
   }

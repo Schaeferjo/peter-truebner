@@ -33,9 +33,18 @@ export default {
 </script>
 
 <style lang="scss">
+@media only screen and (min-width: 960px) {
+  .v-navigation-drawer,
+  .v-overlay__scrim {
+    display: none !important;
+  }
+}
+
 @media only screen and (max-width: 959px) {
   .v-navigation-drawer {
-    min-width: 50% !important;
+    min-width: 80% !important;
+    max-width: 600px !important;
+
     .v-navigation-drawer__content {
       header.v-toolbar {
         .v-toolbar__content {
