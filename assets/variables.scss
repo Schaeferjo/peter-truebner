@@ -5,8 +5,8 @@
 
 
 $body-font-family: 'PT Sans', sans-serif;
-$font-size-root: 18px !default;
-$line-height-root: 2 !default;
+$font-size-root: 17.5px !default;
+$line-height-root: 1.8 !default;
 $border-radius-root: 0px !default;
 
 $color-pack: false;
@@ -42,6 +42,7 @@ h1{
   font-weight: 700;
   text-align: right;
   font-size: 2.5em;
+  line-height:1.25em;
 }
 
 h2{
