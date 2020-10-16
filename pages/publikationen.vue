@@ -415,12 +415,13 @@
 
 <script>
 import VuetifyAudio from '../components/VuetifyAudio.vue'
+
 export default {
   components: {
     VuetifyAudio,
   },
   data: () => ({
-    file: 'http://www.hochmuth.com/mp3/Boccherini_Concerto_478-1.mp3',
+    file: '/Boccherini_Concerto_478-1.mp3',
   }),
   head() {
     return {
