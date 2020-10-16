@@ -4,9 +4,14 @@
 // $font-size-root: 20px;
 
 
-
-@import '~vuetify/src/styles/styles.sass';
 $body-font-family: 'PT Sans', sans-serif;
+@import '~vuetify/src/styles/styles.sass';
+
+
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
 
 :active, :focus{
   outline: none !important;

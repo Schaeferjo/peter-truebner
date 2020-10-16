@@ -24,7 +24,6 @@ export default {
     'fontsource-pt-serif/latin-700-italic.css',
     'fontsource-pt-sans/latin-400.css',
     'fontsource-pt-sans/latin-700.css',
-    'vuetify/dist/vuetify.min.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
