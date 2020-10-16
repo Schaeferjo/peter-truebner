@@ -1,4 +1,8 @@
 const description = 'Prof. em. Dr. phil. Peter Trübner'
+const colors = {
+  secondary: '#ECE1CB',
+  peter_blue: '#305596',
+}
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -54,16 +58,14 @@ export default {
     },
     theme: {
       themes: {
-        light: {
-          secondary: '#ECE1CB',
-          peter_blue: '#305596',
-        },
+        light: colors,
       },
     },
   },
 
   pwa: {
     meta: {
+      theme_color: colors.peter_blue,
       lang: 'de',
       description,
     },
