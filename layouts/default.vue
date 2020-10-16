@@ -55,7 +55,7 @@ export default {
 
 #deko_square {
   position: absolute;
-  top: 200px;
+  top: 180px;
   right: -20px;
   width: 30px;
   height: 30px;
@@ -179,7 +179,7 @@ export default {
 
 @media only screen and (max-width: 599px) {
   #deko_square {
-    top: 185px;
+    top: 175px;
   }
 }
 </style>
