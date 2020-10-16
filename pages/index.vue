@@ -5,9 +5,8 @@
         <h1 class="pb-3">Herzlich Willkommen</h1>
         <p>
           <code>
-            Hier auf der Startseite fehlt noch ein guter Text, der kurz und
-            knapp beschreibt, um was es auf dieser Seite geht und für was man
-            Peter engagieren kann ...</code
+            Hier auf der Startseite fehlt noch ein guter Begrüssungstext
+            ...</code
           >
         </p>
       </v-col>
