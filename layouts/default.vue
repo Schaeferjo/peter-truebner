@@ -67,7 +67,7 @@ export default {
 
 .aside_left {
   min-width: 350px;
-  width: 30%;
+  width: 25%;
   .aside_left_inside {
     float: right;
     border-left: 1px solid #ccc;
@@ -155,8 +155,8 @@ export default {
 }
 
 .custom_main {
-  width: 60% !important;
-  padding: 20px 5em 3em 5em;
+  width: 65% !important;
+  padding: 20px 3em 3em 3em;
 }
 
 .v-divider {
@@ -166,14 +166,19 @@ export default {
 
 @media only screen and (max-width: 1263px) {
   .custom_main {
-    padding: 20px 3em 3em 3em !important;
+    padding: 20px 2.5em 3em 2.5em !important;
   }
 }
 
 @media only screen and (max-width: 959px) {
   .custom_main {
     width: 100% !important;
-    padding: 20px 1em 3em 1em !important;
+    padding: 20px 2em 3em 2em !important;
+    -moz-hyphens: auto !important;
+    -o-hyphens: auto !important;
+    -webkit-hyphens: auto !important;
+    -ms-hyphens: auto !important;
+    hyphens: auto !important;
   }
 }
 

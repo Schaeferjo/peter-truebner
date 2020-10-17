@@ -50,7 +50,7 @@ export default {
 
 .cv-item-content {
   text-align: left;
-  padding: 5px 1em 3em 2em;
+  padding: 5px 2em 3em 2em;
   border-left: 1px solid #ccc;
   &:before {
     content: '';
@@ -73,7 +73,7 @@ export default {
       content: '';
       display: block;
       position: absolute;
-      right: 0.7em;
+      right: 1.6em;
       width: 9px;
       height: 9px;
       border-radius: 100%;
@@ -87,6 +87,8 @@ export default {
   .cv-item-content {
     border-left: none;
     border-right: 1px solid #ccc;
+    padding: 5px 2em 3em 0em;
+
     &:before {
       display: none;
     }

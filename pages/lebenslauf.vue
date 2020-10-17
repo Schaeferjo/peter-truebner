@@ -14,7 +14,7 @@
             /pt_400x216.jpg 400w"
           sizes="(min-width: 960px) 50vw, 90vw"
           contain
-          max-width="1000px"
+          max-width="800px"
           class="mx-auto"
           alt="Porträt von Prof. emeritiert, Dr. phil. Peter Trübner"
         />
