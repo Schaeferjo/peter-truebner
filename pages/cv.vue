@@ -101,7 +101,7 @@ export default {
   },
   head() {
     return {
-      title: ' | Lebenslauf',
+      title: ' | Curriculum Vitae',
     }
   },
 }
