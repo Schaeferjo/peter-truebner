@@ -53,7 +53,7 @@ export default {
         zoom: 9,
         center: [7.2504221, 47.1272345],
         minZoom: 2,
-        maxZoom: 20,
+        maxZoom: 12,
       })
       this.map.addControl(new mapboxgl.NavigationControl())
       new mapboxgl.Marker({

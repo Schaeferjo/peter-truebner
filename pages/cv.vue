@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h1>Lebenslauf</h1>
+        <h1>Curriculum Vitae</h1>
         <h2 class="text-right py-6">
           Peter Trübner<br />Prof. emeritiert, Dr. phil.
         </h2>
