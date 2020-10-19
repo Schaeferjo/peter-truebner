@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1 class="pb-3">Start</h1>
-        <h2 class="text-right py-6">Aktuelle Tätigkeiten</h2>
+        <h2 class="text-right pb-3">Aktuelle Tätigkeiten</h2>
       </v-col>
     </v-row>
 
@@ -41,20 +41,20 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <ul>
           <li>
-          Präsident des Strategischen Gremiums und Mitglied des Stiftungsrats
-          der
-          <a
-            href="https://www.tagesstaettemittelpunkt.ch/ueber-uns/stiftung-mittelpunkt/"
-            target="_blank"
-            >Tagesstätte Mittelpunkt
-          </a>
+            Präsident des Strategischen Gremiums und Mitglied des Stiftungsrats
+            der
+            <a
+              href="https://www.tagesstaettemittelpunkt.ch/ueber-uns/stiftung-mittelpunkt/"
+              target="_blank"
+              >Tagesstätte Mittelpunkt
+            </a>
           </li>
-            <li>
-          Redaktionsmitglied der Zeitschrift der
-          <a href="https://www.aaa-switzerland.ch/zeitschrift" target="_blank"
-            >Analogue Audio Association Switzerland</a
-          >
-            </li>
+          <li>
+            Redaktionsmitglied der Zeitschrift der
+            <a href="https://www.aaa-switzerland.ch/zeitschrift" target="_blank"
+              >Analogue Audio Association Switzerland</a
+            >
+          </li>
         </ul>
       </v-col>
     </v-row>

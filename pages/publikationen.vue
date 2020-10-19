@@ -2,9 +2,9 @@
   <v-container>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h1>Publikationen</h1>
+        <h1 class="pb-3">Publikationen</h1>
 
-        <h2 class="text-right py-6">1. Bücher</h2>
+        <h2 class="text-right pb-3">1. Bücher</h2>
         <br />
         <h4>
           Das zerstörte Ich. Heroinsüchtige zwischen Bestrafung und Betreuung.

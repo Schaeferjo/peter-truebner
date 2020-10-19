@@ -2,8 +2,8 @@
   <v-container>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h1>Curriculum Vitae</h1>
-        <h2 class="text-right py-6">
+        <h1 class="pb-3">Curriculum Vitae</h1>
+        <h2 class="text-right pb-3">
           Peter Trübner – Prof. emeritiert, Dr. phil.
         </h2>
         <v-img
@@ -19,7 +19,7 @@
           alt="Porträt von Prof. emeritiert, Dr. phil. Peter Trübner"
         />
 
-        <h2 class="text-right py-6">Schwerpunkte meiner Lehrtätigkeit</h2>
+        <h2 class="text-right py-3">Schwerpunkte meiner Lehrtätigkeit</h2>
         <h3>Fachhochschule Soziale Arbeit beider Basel</h3>
 
         <p class="pb-6">
@@ -78,7 +78,7 @@
         </p>
 
         <v-divider></v-divider>
-        <h2 class="text-right py-6">Theoretischer Hintergrund</h2>
+        <h2 class="text-right py-3">Theoretischer Hintergrund</h2>
         <p>
           Studium der Soziologie und Psychologie in Frankfurt / Main und Berlin.
         </p>

@@ -4,7 +4,7 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1 class="pb-3">Referate</h1>
 
-        <h2 class="text-right py-6">1. Audio</h2>
+        <h2 class="text-right">1. Audio</h2>
 
         <h4>Gesprächsstoff – Die Konsumfalle</h4>
         <p class="overline">Radiointerview</p>
