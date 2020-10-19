@@ -2,8 +2,9 @@
   <v-container>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h1 class="pb-3">Startseite</h1>
-        <h2 class="text-right py-6">Aktuelle Tätigkeiten</h2>
+        <h1 class="pb-3">Start</h1>
+         <h2 class="text-right py-6">Prof. em. Dr. phil. Peter Trübner</h2>
+        <h3 class="pb-3">Aktuelle Tätigkeiten</h3>
         <ul>
           <li>
             Konzeptberatung: Reflexion und Entwicklung für therapeutische und

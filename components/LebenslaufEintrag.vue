@@ -1,17 +1,28 @@
 <template>
-  <v-container class="cv-item-wrap">
-    <v-row class="cv-item">
-      <v-col class="cv-item-date" cols="12" xs="12" sm="4">
-        {{ date }}
-      </v-col>
-      <v-col class="cv-item-content" cols="12" xs="12" sm="8">
-        <slot></slot>
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-row class="pb-6 align-baseline">
+    <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
+      <h4 class="text-right">{{ date }}</h4>
+    </v-col>
+    <v-col
+      cols="12"
+      xs="0"
+      sm="0"
+      md="0"
+      lg="1"
+      xl="1"
+      class="text-center d-none d-lg-block"
+    >
+      <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
+    </v-col>
+    <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
+      <slot></slot>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
+import { mdiCircleOutline } from '@mdi/js'
+
 export default {
   props: {
     date: {
@@ -19,79 +30,10 @@ export default {
       required: true,
     },
   },
+  data() {
+    return {
+      mdiCircleOutline,
+    }
+  },
 }
 </script>
-
-<style lang="scss">
-.cv-item-wrap {
-  padding: 0;
-}
-
-.cv-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: baseline;
-  padding: 0;
-}
-
-.cv-item-date {
-  font-family: 'PT Serif', sans-serif;
-  font-style: italic;
-  font-weight: 700;
-  padding-bottom: 0.25em;
-  text-align: right;
-  font-weight: 700; /* bold */
-  font-size: 1.1em;
-  line-height: 1.4em;
-  padding: 0 2em;
-  letter-spacing: 0;
-}
-
-.cv-item-content {
-  text-align: left;
-  padding: 5px 2em 3em 2em;
-  border-left: 1px solid #ccc;
-  &:before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    margin-left: calc(-2em - 5px);
-    margin-top: 10px;
-  }
-}
-
-@media only screen and (max-width: 599px) {
-  .cv-item-date {
-    border-right: 1px solid #ccc !important;
-    &:before {
-      content: '';
-      display: block;
-      position: absolute;
-      right: 1.6em;
-      width: 9px;
-      height: 9px;
-      border-radius: 100%;
-      border: 1px solid #ccc;
-      background-color: #fff;
-      margin-left: calc(-2em - 5px);
-      margin-top: 8px;
-    }
-  }
-
-  .cv-item-content {
-    border-left: none;
-    border-right: 1px solid #ccc;
-    padding: 5px 2em 3em 0em;
-
-    &:before {
-      display: none;
-    }
-  }
-}
-</style>

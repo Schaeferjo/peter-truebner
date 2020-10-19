@@ -111,267 +111,58 @@
     </v-row>
 
     <v-divider></v-divider>
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">2003 - 2020</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>
-          Professor für Bildungssoziologie an der Pädagogischen Hochschule der
-          Fachhochschule Nordwestschweiz
-        </p>
-      </v-col>
-    </v-row>
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">2007 - 2010</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>
-          Lehrbeauftragter des Instituts für Soziologie der Universität Basel
-        </p>
-      </v-col>
-    </v-row>
+    <LebenslaufEintrag date="2003 - 2020">
+      Professor für Bildungssoziologie an der Pädagogischen Hochschule der
+      Fachhochschule Nordwestschweiz
+    </LebenslaufEintrag>
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">2001 - 2003</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>
-          Dozent für empirische Sozialforschung an der Neuen Lehrerinnen- und
-          Lehrerausbildung der Universität Bern
-        </p>
-      </v-col>
-    </v-row>
+    <LebenslaufEintrag date="2007 - 2010"
+      >Lehrbeauftragter des Instituts für Soziologie der Universität
+      Basel</LebenslaufEintrag
+    >
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">1995 - 2003</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>
-          Lehrauftrag und anschliessende Professur an der Fachhochschule für
-          Soziale Arbeit beider Basel
-        </p>
-      </v-col>
-    </v-row>
+    <LebenslaufEintrag date="2001 - 2003"
+      >Dozent für empirische Sozialforschung an der Neuen Lehrerinnen- und
+      Lehrerausbildung der Universität Bern</LebenslaufEintrag
+    >
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">1992 - 1997</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>
-          Arbeit als Einzeltherapeut im Auftrag der Psychiatrischen Klinik
-          Solothurn im Therapiezentrum Schachen mit Drogensüchtigen,
-          Suizidgefährdeten und Depressiven
-        </p>
-      </v-col>
-    </v-row>
+    <LebenslaufEintrag date="1995 - 2003"
+      >Lehrauftrag und anschliessende Professur an der Fachhochschule für
+      Soziale Arbeit beider Basel</LebenslaufEintrag
+    >
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">1988 - 1992</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>
-          Gemeinwesenarbeit mit dem Schwerpunkt Suchtprävention als Beamter der
-          Stadt Solothurn
-        </p>
-      </v-col>
-    </v-row>
+    <LebenslaufEintrag date="1992 - 1997"
+      >Arbeit als Einzeltherapeut im Auftrag der Psychiatrischen Klinik
+      Solothurn im Therapiezentrum Schachen mit Drogensüchtigen,
+      Suizidgefährdeten und Depressiven</LebenslaufEintrag
+    >
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">1987</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>Mitarbeiter im Psychologischen Marktforschungsinstitut Zürich</p>
-      </v-col>
-    </v-row>
+    <LebenslaufEintrag date="1988 - 1992"
+      >Gemeinwesenarbeit mit dem Schwerpunkt Suchtprävention als Beamter der
+      Stadt Solothurn</LebenslaufEintrag
+    >
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">1986</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>Heirat und Umzug in die Schweiz</p>
-      </v-col>
-    </v-row>
+    <LebenslaufEintrag date="1987"
+      >Mitarbeiter im Psychologischen Marktforschungsinstitut
+      Zürich</LebenslaufEintrag
+    >
 
-    <v-row class="pb-4 align-baseline">
-      <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-        <h4 class="text-right">bis 1986</h4>
-      </v-col>
-      <v-col
-        cols="12"
-        xs="0"
-        sm="0"
-        md="0"
-        lg="1"
-        xl="1"
-        class="text-center d-none d-lg-block"
-      >
-        <v-icon color="#ccc" size="15">{{ mdiCircleOutline }}</v-icon>
-      </v-col>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="8" xl="8">
-        <p>
-          Studium der Soziologe und Psychologe an der Johann Wolfgang Goethe
-          Universität in Frankfurt/Main und an der Freien Universität Berlin.
-          <br />
-          <br />Ausbildung als Psychotherapeut, Arbeit als therapeutischer
-          Mitarbeiter und als Leiter der Drogentherapieeinrichtung RELEASE e.V.
-          Suchtforschung, Aufbau einer Therapieeinrichtung für sogenannt
-          therapieresistente Heroinsüchtige nach mehrjährigem Aufenthalt im
-          Strafvollzug, Leiter des Koordinationstreffens aller
-          Drogen-Facharbeiter der Stadt Berlin.
-        </p>
-      </v-col>
-    </v-row>
-    <hr />
-    <div id="cv">
-      <LebenslaufEintrag date="2003 - 2020">
-        Professor für Bildungssoziologie an der Pädagogischen Hochschule der
-        Fachhochschule Nordwestschweiz
-      </LebenslaufEintrag>
+    <LebenslaufEintrag date="1986"
+      >Heirat und Umzug in die Schweiz</LebenslaufEintrag
+    >
 
-      <LebenslaufEintrag date="2007 - 2010"
-        >Lehrbeauftragter des Instituts für Soziologie der Universität
-        Basel</LebenslaufEintrag
-      >
-
-      <LebenslaufEintrag date="2001 - 2003"
-        >Dozent für empirische Sozialforschung an der Neuen Lehrerinnen- und
-        Lehrerausbildung der Universität Bern</LebenslaufEintrag
-      >
-
-      <LebenslaufEintrag date="1995 - 2003"
-        >Lehrauftrag und anschliessende Professur an der Fachhochschule für
-        Soziale Arbeit beider Basel</LebenslaufEintrag
-      >
-
-      <LebenslaufEintrag date="1992 - 1997"
-        >Arbeit als Einzeltherapeut im Auftrag der Psychiatrischen Klinik
-        Solothurn im Therapiezentrum Schachen mit Drogensüchtigen,
-        Suizidgefährdeten und Depressiven</LebenslaufEintrag
-      >
-
-      <LebenslaufEintrag date="1988 - 1992"
-        >Gemeinwesenarbeit mit dem Schwerpunkt Suchtprävention als Beamter der
-        Stadt Solothurn</LebenslaufEintrag
-      >
-
-      <LebenslaufEintrag date="1987"
-        >Mitarbeiter im Psychologischen Marktforschungsinstitut
-        Zürich</LebenslaufEintrag
-      >
-
-      <LebenslaufEintrag date="1986"
-        >Heirat und Umzug in die Schweiz</LebenslaufEintrag
-      >
-
-      <LebenslaufEintrag date="bis 1986">
-        Studium der Soziologe und Psychologe an der Johann Wolfgang Goethe
-        Universität in Frankfurt/Main und an der Freien Universität Berlin.
-        <br />
-        <br />Ausbildung als Psychotherapeut, Arbeit als therapeutischer
-        Mitarbeiter und als Leiter der Drogentherapieeinrichtung RELEASE e.V.
-        Suchtforschung, Aufbau einer Therapieeinrichtung für sogenannt
-        therapieresistente Heroinsüchtige nach mehrjährigem Aufenthalt im
-        Strafvollzug, Leiter des Koordinationstreffens aller Drogen-Facharbeiter
-        der Stadt Berlin.
-      </LebenslaufEintrag>
-    </div>
+    <LebenslaufEintrag date="bis 1986">
+      Studium der Soziologe und Psychologe an der Johann Wolfgang Goethe
+      Universität in Frankfurt/Main und an der Freien Universität Berlin.
+      
+      <br />Ausbildung als Psychotherapeut, Arbeit als therapeutischer
+      Mitarbeiter und als Leiter der Drogentherapieeinrichtung RELEASE e.V.
+      Suchtforschung, Aufbau einer Therapieeinrichtung für sogenannt
+      therapieresistente Heroinsüchtige nach mehrjährigem Aufenthalt im
+      Strafvollzug, Leiter des Koordinationstreffens aller Drogen-Facharbeiter
+      der Stadt Berlin.
+    </LebenslaufEintrag>
   </v-container>
 </template>
 

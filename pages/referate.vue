@@ -7,7 +7,7 @@
         <h2 class="text-right py-6">1. Audio</h2>
 
         <h4>Gesprächsstoff – Die Konsumfalle</h4>
-        <p class="overline">Veröffentlicht am XX.XX.XXXX, Quelle: abcdef</p>
+        <p class="overline">Radiointerview</p>
         <vuetify-audio
           :file="file"
           color="peter_blue"
