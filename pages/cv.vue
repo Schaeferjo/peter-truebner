@@ -4,7 +4,7 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1>Curriculum Vitae</h1>
         <h2 class="text-right py-6">
-          Peter Trübner<br />Prof. emeritiert, Dr. phil.
+          Peter Trübner – Prof. emeritiert, Dr. phil.
         </h2>
         <v-img
           src="/pt_400x216.jpg"
@@ -42,14 +42,14 @@
         </p>
 
         <h3>Pädagogische Hochschule der FHNW</h3>
-        <p class="pb-6">
+        <p>
           Bildung im gesellschaftlichen Verlauf, Schulische Sozialisation,
           Migrationspädagogik, Abweichendes Verhalten, Institutionelle
           Diskriminierung, Kommunikation und Klassenführung, Burn Out,
           Professionsentwicklung<br />
         </p>
-
-        <h2 class="text-right py-6">Forschung zu:</h2>
+        <v-divider></v-divider>
+        <h2 class="text-right py-3">Forschung zu</h2>
 
         <p class="pb-12">
           <v-chip class="ma-2" color="peter_blue" text-color="white">
@@ -155,7 +155,7 @@
     <LebenslaufEintrag date="bis 1986">
       Studium der Soziologe und Psychologe an der Johann Wolfgang Goethe
       Universität in Frankfurt/Main und an der Freien Universität Berlin.
-      
+
       <br />Ausbildung als Psychotherapeut, Arbeit als therapeutischer
       Mitarbeiter und als Leiter der Drogentherapieeinrichtung RELEASE e.V.
       Suchtforschung, Aufbau einer Therapieeinrichtung für sogenannt

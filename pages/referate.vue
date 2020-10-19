@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h1 class="pb-3">Einzelne Referate</h1>
+        <h1 class="pb-3">Referate</h1>
 
         <h2 class="text-right py-6">1. Audio</h2>
 
@@ -39,7 +39,7 @@
       >
         <a href="/Entwicklungsaufgaben-im-Jugendalter.pdf" target="_blank">
           <v-icon color="peter_blue" size="40" class="pb-6">{{
-            mdiFileDownload
+            mdiFileDownloadOutline
           }}</v-icon>
           <br />
           Entwicklungsaufgaben im Jugendalter
@@ -56,7 +56,7 @@
       >
         <a href="/Konsumterror.pdf" target="_blank">
           <v-icon color="peter_blue" size="40" class="pb-6">{{
-            mdiFileDownload
+            mdiFileDownloadOutline
           }}</v-icon>
           <br />
           Konsumterror
@@ -73,7 +73,7 @@
       >
         <a href="/Lernatmosphaere-herstellen.pdf" target="_blank">
           <v-icon color="peter_blue" size="40" class="pb-6">{{
-            mdiFileDownload
+            mdiFileDownloadOutline
           }}</v-icon>
           <br />
           Lernatmosphäre herstellen
@@ -93,7 +93,7 @@
           target="_blank"
         >
           <v-icon color="peter_blue" size="40" class="pb-6">{{
-            mdiFileDownload
+            mdiFileDownloadOutline
           }}</v-icon>
           <br />
           Veränderungsprozesse im Verhalten von SchülerInnen anregen
@@ -104,7 +104,7 @@
 </template>
 
 <script>
-import { mdiFileDownload } from '@mdi/js'
+import { mdiFileDownloadOutline } from '@mdi/js'
 import VuetifyAudio from '../components/VuetifyAudio.vue'
 
 export default {
@@ -114,7 +114,7 @@ export default {
   data() {
     return {
       file: '/gespraechsstoff-die-konsumfalle.mp3',
-      mdiFileDownload,
+      mdiFileDownloadOutline,
     }
   },
   head() {

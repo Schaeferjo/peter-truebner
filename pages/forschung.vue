@@ -6,11 +6,9 @@
       </v-col>
     </v-row>
 
- 
-
     <ForschungserfahrungEintrag
       date="Basel 2007 - 2010"
-      dateSubheadline="Soziologisches Institut der Universität Basel"
+      date-subheadline="Soziologisches Institut der Universität Basel"
     >
       <ul>
         <li>Jugendkulturen in der Schweiz</li>
@@ -23,7 +21,7 @@
 
     <ForschungserfahrungEintrag
       date="Liestal 2003 - 2010"
-      dateSubheadline="Pädagogische Hochschule der FHNW (zuerst HPSA-BB)"
+      date-subheadline="Pädagogische Hochschule der FHNW (zuerst HPSA-BB)"
     >
       <ul>
         <li>
@@ -43,7 +41,7 @@
 
     <ForschungserfahrungEintrag
       date="Bern 2001 - 2003"
-      dateSubheadline="Lehrerinnen und Lehrerausbildung der Universität Bern"
+      date-subheadline="Lehrerinnen und Lehrerausbildung der Universität Bern"
     >
       <ul>
         <li>
@@ -55,7 +53,7 @@
     </ForschungserfahrungEintrag>
     <ForschungserfahrungEintrag
       date="Basel 1998 - 2003"
-      dateSubheadline="an der Fachhochschule für Soziale Arbeit beider Basel"
+      date-subheadline="an der Fachhochschule für Soziale Arbeit beider Basel"
     >
       <ul>
         <li>Soziale Arbeit im Kinderspital Basel Stadt</li>
@@ -66,7 +64,7 @@
 
     <ForschungserfahrungEintrag
       date="Solothurn 1988 - 1992"
-      dateSubheadline="in der Gemeinwesen Arbeit der Stadt Solothurn"
+      date-subheadline="in der Gemeinwesen Arbeit der Stadt Solothurn"
     >
       <ul>
         <li>Angebote der Suchtprävention in der Stadt Solothurn</li>
@@ -80,7 +78,7 @@
 
     <ForschungserfahrungEintrag
       date="Berlin 1979 - 1986"
-      dateSubheadline="Forschungsarbeiten zur Drogenabhängigkeit Jugendlicher als Leiter des
+      date-subheadline="Forschungsarbeiten zur Drogenabhängigkeit Jugendlicher als Leiter des
           Therapiezentrums Release und im Auftrag des Senators für Familie
           Jugend und Sport als Koordinator der Berliner Drogenarbeit"
     >
@@ -103,7 +101,7 @@
 
     <ForschungserfahrungEintrag
       date="Berlin 1974"
-      dateSubheadline="als Forschungsprojekt im Soziologiestudium"
+      date-subheadline="als Forschungsprojekt im Soziologiestudium"
     >
       <ul>
         <li>
@@ -112,7 +110,6 @@
         </li>
       </ul>
     </ForschungserfahrungEintrag>
-
   </v-container>
 </template>
 
