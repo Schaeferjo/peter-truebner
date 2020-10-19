@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1 class="pb-3">Startseite</h1>
-        <h2>Aktuelle Tätigkeiten:</h2>
+        <h2 class="text-right py-6">Aktuelle Tätigkeiten</h2>
         <ul>
           <li>
             Konzeptberatung: Reflexion und Entwicklung für therapeutische und

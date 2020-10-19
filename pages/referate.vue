@@ -28,33 +28,73 @@
           benötigt)
         </p>
       </v-col>
-      <v-col cols="12" xs="6" sm="6" md="6" lg="3" xl="3" class="text-center pb-12">
-        <a href="/Entwicklungsaufgaben-im-Jugendalter.pdf" target="_blank" >
-          <v-icon color="peter_blue" size="40" class="pb-6">{{ mdiFileDownload }}</v-icon>
+      <v-col
+        cols="12"
+        xs="6"
+        sm="6"
+        md="6"
+        lg="3"
+        xl="3"
+        class="text-center pb-12"
+      >
+        <a href="/Entwicklungsaufgaben-im-Jugendalter.pdf" target="_blank">
+          <v-icon color="peter_blue" size="40" class="pb-6">{{
+            mdiFileDownload
+          }}</v-icon>
           <br />
           Entwicklungsaufgaben im Jugendalter
         </a>
       </v-col>
-      <v-col cols="12" xs="6" sm="6" md="6" lg="3" xl="3" class="text-center pb-12">
+      <v-col
+        cols="12"
+        xs="6"
+        sm="6"
+        md="6"
+        lg="3"
+        xl="3"
+        class="text-center pb-12"
+      >
         <a href="/Konsumterror.pdf" target="_blank">
-          <v-icon color="peter_blue" size="40" class="pb-6">{{ mdiFileDownload }}</v-icon>
+          <v-icon color="peter_blue" size="40" class="pb-6">{{
+            mdiFileDownload
+          }}</v-icon>
           <br />
           Konsumterror
         </a>
       </v-col>
-      <v-col cols="12" xs="6" sm="6" md="6" lg="3" xl="3" class="text-center pb-12">
+      <v-col
+        cols="12"
+        xs="6"
+        sm="6"
+        md="6"
+        lg="3"
+        xl="3"
+        class="text-center pb-12"
+      >
         <a href="/Lernatmosphaere-herstellen.pdf" target="_blank">
-          <v-icon color="peter_blue" size="40" class="pb-6">{{ mdiFileDownload }}</v-icon>
+          <v-icon color="peter_blue" size="40" class="pb-6">{{
+            mdiFileDownload
+          }}</v-icon>
           <br />
           Lernatmosphäre herstellen
         </a>
       </v-col>
-      <v-col cols="12" xs="6" sm="6" md="6" lg="3" xl="3" class="text-center pb-12">
-        <a 
+      <v-col
+        cols="12"
+        xs="6"
+        sm="6"
+        md="6"
+        lg="3"
+        xl="3"
+        class="text-center pb-12"
+      >
+        <a
           href="/Veraenderungsprozesse-im-Verhalten-von-SchuelerInnen anregen.pdf"
           target="_blank"
         >
-          <v-icon color="peter_blue" size="40" class="pb-6">{{ mdiFileDownload }}</v-icon>
+          <v-icon color="peter_blue" size="40" class="pb-6">{{
+            mdiFileDownload
+          }}</v-icon>
           <br />
           Veränderungsprozesse im Verhalten von SchülerInnen anregen
         </a>
