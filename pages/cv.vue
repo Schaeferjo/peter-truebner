@@ -1,24 +1,29 @@
 <template>
   <v-container>
-    <v-row>
+    <v-row class="pb-8">
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1 class="pb-3">Curriculum Vitae</h1>
-        <h2 class="text-right pb-3">
-          Peter Trübner – Prof. emeritiert, Dr. phil.
-        </h2>
+        <h2 class="text-right">Peter Trübner – Prof. em. Dr. phil.</h2>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
         <v-img
           src="/pt_400x216.jpg"
           srcset="
             /pt_1000x540.jpg 1000w,
             /pt_750x405.jpg 750w,
             /pt_400x216.jpg 400w"
-          sizes="(min-width: 960px) 50vw, 90vw"
-          contain
-          max-width="1000px"
-          class="mx-auto py-8"
+          sizes="(min-width: 960px) 50vw, 50vw"
+          class="mx-auto"
           alt="Porträt von Prof. emeritiert, Dr. phil. Peter Trübner"
         />
+      </v-col>
+    </v-row>
 
+    <v-row class="pt-8">
+      <v-col>
         <h2 class="text-right py-3">Schwerpunkte meiner Lehrtätigkeit</h2>
         <h3>Fachhochschule Soziale Arbeit beider Basel</h3>
 
@@ -51,7 +56,7 @@
         <v-divider></v-divider>
         <h2 class="text-right py-3">Forschung zu</h2>
 
-        <p class="pb-12">
+        <div class="pb-12">
           <v-chip class="ma-2" color="peter_blue" text-color="white">
             <h3>Unterrichtsqualität</h3>
           </v-chip>
@@ -75,7 +80,7 @@
           <v-chip class="ma-2" color="peter_blue" text-color="white">
             <h3>Einführung der ersten Fremdsprache</h3>
           </v-chip>
-        </p>
+        </div>
 
         <v-divider></v-divider>
         <h2 class="text-right py-3">Theoretischer Hintergrund</h2>
@@ -107,10 +112,9 @@
           anderen Meinungen zu stellen. Nur so kann eigenes falsches Bewusstsein
           reflektiert werden.
         </p>
+        <v-divider></v-divider>
       </v-col>
     </v-row>
-
-    <v-divider></v-divider>
 
     <LebenslaufEintrag date="2003 - 2020">
       Professor für Bildungssoziologie an der Pädagogischen Hochschule der
@@ -186,14 +190,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-#cv {
-  padding: 4em 0 0 0;
-}
-
-p.test {
-  display: flex;
-  align-items: baseline;
-}
-</style>

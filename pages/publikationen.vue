@@ -4,7 +4,7 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1 class="pb-3">Publikationen</h1>
 
-        <h2 class="text-right pb-3">1. Bücher</h2>
+        <h2 class="text-right pb-3">Bücher</h2>
         <br />
         <h4>
           Das zerstörte Ich. Heroinsüchtige zwischen Bestrafung und Betreuung.
@@ -59,7 +59,7 @@
           sich seit 1968 verändert hat.
         </p>
         <v-divider></v-divider>
-        <h2 class="text-right">2. Beiträge</h2>
+        <h2 class="text-right">Beiträge</h2>
         <br />
         <h4>Sucht, Abstinenz und Ueberlebenshilfe.</h4>
         <p class="overline">Solothurner AZ, 17. April 1990, S. 21</p>

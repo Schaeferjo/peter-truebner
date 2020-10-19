@@ -1,7 +1,7 @@
 <template>
   <v-row class="pb-6 align-baseline">
     <v-col cols="12" xs="12" sm="12" md="12" lg="3" xl="3" class="pb-0">
-      <h4 class="text-right">{{ date }}</h4>
+      <h4 class="text-lg-right">{{ date }}</h4>
     </v-col>
     <v-col
       cols="12"
@@ -37,3 +37,8 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+@media only screen and (max-width: 599px) {
+}
+</style>

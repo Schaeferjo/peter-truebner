@@ -4,7 +4,7 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <h1 class="pb-3">Referate</h1>
 
-        <h2 class="text-right">1. Audio</h2>
+        <h2 class="text-right">Audio</h2>
 
         <h4>Gesprächsstoff – Die Konsumfalle</h4>
         <p class="overline">Radiointerview</p>
@@ -17,7 +17,7 @@
         <v-divider></v-divider>
       </v-col>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h2 class="text-right">2. Referate als PDF-Dateien</h2>
+        <h2 class="text-right">Referate als PDF-Dateien</h2>
         <p class="text-right pb-6">
           (Zum Anzeigen wird der kostenlose
           <a

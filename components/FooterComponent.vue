@@ -25,13 +25,12 @@
         </div>
         <div>
           <p class="ma-0">
-            <span class="overline font-weight-bold">Telefon:</span>
-
+            <span class="overline">Telefon:</span>
             <a href="tel:+41323651422" class="text-decoration-none"
               >0041 (0)32 365 14 22</a
             >
             <br />
-            <span class="overline font-weight-bold">E-Mail:</span>
+            <span class="overline">E-Mail:</span>
             <a href="mailto:mail@petertruebner.ch" class="text-decoration-none"
               >mail@petertruebner.ch</a
             >
@@ -66,13 +65,12 @@
           </v-col>
           <v-col cols="12" sm="7" class="text-center text-sm-left">
             <p class="ma-0">
-              <span class="overline font-weight-bold">Telefon:</span>
-
+              <span class="overline">Telefon:</span>
               <a href="tel:+41323651422" class="text-decoration-none"
                 >0041 (0)32 365 14 22</a
               >
               <br />
-              <span class="overline font-weight-bold">E-Mail:</span>
+              <span class="overline">E-Mail:</span>
               <a
                 href="mailto:mail@petertruebner.ch"
                 class="text-decoration-none"

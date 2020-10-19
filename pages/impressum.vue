@@ -10,16 +10,16 @@
         </p>
         <p>Prof. em. Dr. phil. Peter Trübner</p>
         <p>
-          <span class="overline font-weight-bold">Anschrift:</span><br />
+          <span class="overline">Anschrift:</span><br />
           Alexander Moserstraße 32a<br />
           CH-2503 Biel/ Bienne <br />
           Schweiz
         </p>
         <p class="pb-6">
-          <span class="overline font-weight-bold">Telefon:</span>
+          <span class="overline">Telefon:</span>
           <a href="tel:+41323651422">0041 (0)32 365 14 22</a>
           <br />
-          <span class="overline font-weight-bold">E-Mail:</span>
+          <span class="overline">E-Mail:</span>
           <a href="mailto:mail@petertruebner.ch">mail@petertruebner.ch</a>
         </p>
 
@@ -78,9 +78,9 @@
         <h3 class="pt-8 pb-3">Gestaltung und technische Umsetzung:</h3>
         <p>
           Jo Schäfer<br />
-          <span class="overline font-weight-bold">E-Mail:</span>
+          <span class="overline">E-Mail:</span>
           <a href="mailto:mail@joschaefer.com">mail@joschaefer.com</a><br />
-          <span class="overline font-weight-bold">Web:</span>
+          <span class="overline">Web:</span>
           <a href="https://www.joschaefer.com" target="_blank">joschaefer.com</a
           ><br />
         </p>
