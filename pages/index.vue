@@ -2,8 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <h1 class="pb-3">Start</h1>
-        <h2 class="text-right pb-3">Aktuelle Tätigkeiten</h2>
+        <h1 class="pb-6">Aktuelle Tätigkeiten</h1>
       </v-col>
     </v-row>
 
@@ -20,7 +19,7 @@
       </v-col>
       <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center">
         <v-icon color="peter_blue" size="70" class="pb-8">{{
-          mdiFinance
+          mdiHeadCogOutline
         }}</v-icon>
         <h4>Projektberatung und Projektentwicklung</h4>
       </v-col>
@@ -64,7 +63,7 @@
 <script>
 import {
   mdiClipboardCheckOutline,
-  mdiFinance,
+  mdiHeadCogOutline,
   mdiHandshakeOutline,
   mdiMessageOutline,
 } from '@mdi/js'
@@ -73,7 +72,7 @@ export default {
   data() {
     return {
       mdiClipboardCheckOutline,
-      mdiFinance,
+      mdiHeadCogOutline,
       mdiHandshakeOutline,
       mdiMessageOutline,
     }

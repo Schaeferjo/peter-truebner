@@ -3,6 +3,7 @@
     <div id="deko_square"></div>
     <drawer ref="drawer"></drawer>
     <header-component @toggleDrawer="toggleDrawer"></header-component>
+
     <v-main>
       <div class="aside_left d-none d-md-block">
         <div class="aside_left_inside">
@@ -18,6 +19,7 @@
       </div>
       <div class="aside_right d-none d-md-block pr-12"></div>
     </v-main>
+
     <footer-component></footer-component>
   </v-app>
 </template>
@@ -66,7 +68,7 @@ export default {
 }
 
 .aside_left {
-  min-width: 350px;
+  min-width: 360px;
   width: 25%;
   .aside_left_inside {
     float: right;
@@ -86,7 +88,7 @@ export default {
   // global styling
   font-family: 'PT Serif', sans-serif;
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 700;
   letter-spacing: 0.01em;
 }
@@ -97,7 +99,7 @@ export default {
     // > .menu_content : only custom styling for default nav
     a {
       color: #000;
-      padding: 0 1em;
+      padding: 0 0 0 1em;
       &:before {
         content: '';
         position: absolute;
@@ -119,7 +121,7 @@ export default {
         color: #ccc !important;
         &:before {
           opacity: 1;
-          top: 12px;
+          top: 14px;
           margin-left: -10px;
           border: 1px solid #fff !important;
           border-top: 1px solid #ccc !important;
@@ -132,7 +134,7 @@ export default {
         color: #305596;
         &:before {
           opacity: 1;
-          top: 12px;
+          top: 14px;
           margin-left: -10px;
           border: 1px solid #fff !important;
           border-top: 1px solid #ccc !important;
@@ -185,6 +187,9 @@ export default {
 @media only screen and (max-width: 599px) {
   #deko_square {
     top: 175px;
+  }
+  .custom_main {
+    padding: 20px 1em 3em 1em !important;
   }
 }
 </style>

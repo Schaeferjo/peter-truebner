@@ -23,7 +23,7 @@
           <a href="tel:+41323651422">0041 (0)32 365 14 22</a>
 
           <br />
-          <span class="overline">E-Mail::</span>
+          <span class="overline">E-Mail:</span>
           <a href="mailto:mail@petertruebner.ch">mail@petertruebner.ch</a>
         </p>
       </v-col>

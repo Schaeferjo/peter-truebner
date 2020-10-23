@@ -17,6 +17,7 @@
             /pt_400x216.jpg 400w"
           sizes="(min-width: 960px) 50vw, 50vw"
           class="mx-auto"
+          max-width="800px"
           alt="Porträt von Prof. emeritiert, Dr. phil. Peter Trübner"
         />
       </v-col>
@@ -57,27 +58,27 @@
         <h2 class="text-right py-3">Forschung zu</h2>
 
         <div class="pb-12">
-          <v-chip class="ma-2" color="peter_blue" text-color="white">
+          <v-chip class="ma-2" color="peter_light_blue" text-color="white">
             <h3>Unterrichtsqualität</h3>
           </v-chip>
 
-          <v-chip class="ma-2" color="peter_blue" text-color="white">
+          <v-chip class="ma-2" color="peter_light_blue" text-color="white">
             <h3>Konzeptentwicklung flexibler Ausbildung</h3>
           </v-chip>
 
-          <v-chip class="ma-2" color="peter_blue" text-color="white">
+          <v-chip class="ma-2" color="peter_light_blue" text-color="white">
             <h3>Lernstrategien</h3>
           </v-chip>
 
-          <v-chip class="ma-2" color="peter_blue" text-color="white">
+          <v-chip class="ma-2" color="peter_light_blue" text-color="white">
             <h3>Migration</h3>
           </v-chip>
 
-          <v-chip class="ma-2" color="peter_blue" text-color="white">
+          <v-chip class="ma-2" color="peter_light_blue" text-color="white">
             <h3>Informationstechnologien in der Schule</h3>
           </v-chip>
 
-          <v-chip class="ma-2" color="peter_blue" text-color="white">
+          <v-chip class="ma-2" color="peter_light_blue" text-color="white">
             <h3>Einführung der ersten Fremdsprache</h3>
           </v-chip>
         </div>

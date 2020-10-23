@@ -2,6 +2,7 @@ const description = 'Prof. em. Dr. phil. Peter Trübner'
 const colors = {
   secondary: '#ECE1CB',
   peter_blue: '#305596',
+  peter_light_blue: '#4880e2',
 }
 
 export default {
