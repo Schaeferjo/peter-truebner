@@ -7,7 +7,7 @@
     </v-row>
 
     <v-row class="pt-12">
-      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center">
+      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center pb-8">
         <v-icon color="peter_blue" size="70" class="pb-8">{{
           mdiClipboardCheckOutline
         }}</v-icon>
@@ -17,19 +17,19 @@
           Institutionen
         </p>
       </v-col>
-      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center">
+      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center pb-8">
         <v-icon color="peter_blue" size="70" class="pb-8">{{
           mdiHeadCogOutline
         }}</v-icon>
         <h4>Projektberatung und Projektentwicklung</h4>
       </v-col>
-      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center">
+      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center pb-8">
         <v-icon color="peter_blue" size="70" class="pb-8">{{
           mdiHandshakeOutline
         }}</v-icon>
         <h4>Psychologische Beratung und Betreuung in Krisensituationen</h4>
       </v-col>
-      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center">
+      <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="3" class="text-center pb-8">
         <v-icon color="peter_blue" size="70" class="pb-8">{{
           mdiMessageOutline
         }}</v-icon>
