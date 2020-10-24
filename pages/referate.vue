@@ -23,6 +23,7 @@
           <a
             href="https://acrobat.adobe.com/de/de/acrobat/pdf-reader.html"
             target="_blank"
+            rel="noreferrer"
             >Adobe Acrobat Reader</a
           >
           benötigt)
@@ -37,7 +38,11 @@
         xl="3"
         class="text-center pb-12"
       >
-        <a href="/Entwicklungsaufgaben-im-Jugendalter.pdf" target="_blank">
+        <a
+          href="/Entwicklungsaufgaben-im-Jugendalter.pdf"
+          target="_blank"
+          rel="noopener"
+        >
           <v-icon color="peter_blue" size="40" class="pb-6">{{
             mdiFileDownloadOutline
           }}</v-icon>
@@ -54,7 +59,7 @@
         xl="3"
         class="text-center pb-12"
       >
-        <a href="/Konsumterror.pdf" target="_blank">
+        <a href="/Konsumterror.pdf" target="_blank" rel="noopener">
           <v-icon color="peter_blue" size="40" class="pb-6">{{
             mdiFileDownloadOutline
           }}</v-icon>
@@ -71,7 +76,11 @@
         xl="3"
         class="text-center pb-12"
       >
-        <a href="/Lernatmosphaere-herstellen.pdf" target="_blank">
+        <a
+          href="/Lernatmosphaere-herstellen.pdf"
+          target="_blank"
+          rel="noopener"
+        >
           <v-icon color="peter_blue" size="40" class="pb-6">{{
             mdiFileDownloadOutline
           }}</v-icon>
@@ -91,6 +100,7 @@
         <a
           href="/Veraenderungsprozesse-im-Verhalten-von-SchuelerInnen anregen.pdf"
           target="_blank"
+          rel="noopener"
         >
           <v-icon color="peter_blue" size="40" class="pb-6">{{
             mdiFileDownloadOutline

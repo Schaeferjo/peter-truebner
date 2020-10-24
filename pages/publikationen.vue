@@ -393,7 +393,10 @@
           Seit 2017 schreibe ich zu meinem lebenslangen Hobby Rockmusik –
           "Blicke auf populäre Musik" mit den Schwerpunkten Blues, Rockmusik und
           Jazz in den Zeitschriften der: Analogue Audio Association Switzerland
-          <a href="https://www.aaa-switzerland.ch/zeitschrift" target="_blank"
+          <a
+            href="https://www.aaa-switzerland.ch/zeitschrift"
+            target="_blank"
+            rel="noopener"
             >https://www.aaa-switzerland.ch/zeitschrift</a
           >
         </p>

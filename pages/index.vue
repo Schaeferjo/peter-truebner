@@ -77,12 +77,16 @@
             <a
               href="https://www.tagesstaettemittelpunkt.ch/ueber-uns/stiftung-mittelpunkt/"
               target="_blank"
+              rel="noopener"
               >Tagesstätte Mittelpunkt
             </a>
           </li>
           <li>
             Redaktionsmitglied der Zeitschrift der
-            <a href="https://www.aaa-switzerland.ch/zeitschrift" target="_blank"
+            <a
+              href="https://www.aaa-switzerland.ch/zeitschrift"
+              target="_blank"
+              rel="noopener"
               >Analogue Audio Association Switzerland</a
             >
           </li>

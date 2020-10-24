@@ -81,7 +81,8 @@
           <span class="overline">E-Mail:</span>
           <a href="mailto:mail@joschaefer.com">mail@joschaefer.com</a><br />
           <span class="overline">Web:</span>
-          <a href="https:/joschaefer.com" target="_blank">joschaefer.com</a
+          <a href="https:/joschaefer.com" target="_blank" rel="noopener"
+            >joschaefer.com</a
           ><br />
         </p>
       </v-col>

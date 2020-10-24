@@ -186,7 +186,10 @@
 
         <p>
           Erstellt mit
-          <a href="https://datenschutz-generator.de/" target="_blank"
+          <a
+            href="https://datenschutz-generator.de/"
+            target="_blank"
+            rel="noreferrer"
             >Datenschutz-Generator.de</a
           >
           von RA Dr. Thomas Schwenke
