@@ -186,7 +186,7 @@ export default {
 
 @media only screen and (max-width: 599px) {
   #deko_square {
-    top: 175px;
+    top: 170px;
   }
   .custom_main {
     padding: 20px 1em 3em 1em !important;
