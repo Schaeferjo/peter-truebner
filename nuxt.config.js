@@ -45,6 +45,8 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    // https://www.npmjs.com/package/@nuxtjs/sitemap
+    '@nuxtjs/sitemap',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
@@ -70,6 +72,12 @@ export default {
       lang: 'de',
       description,
     },
+  },
+
+  /* sitemap */
+  sitemap: {
+    hostname: 'https://petertruebner.ch/',
+    gzip: true,
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
