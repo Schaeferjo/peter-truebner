@@ -1,4 +1,5 @@
-const description = 'Prof. em. Dr. phil. Peter Trübner'
+const description =
+  'Prof. em. Dr. phil Peter Trübner: Soziologe, Psychologe, Vorträge, psychologische Beratung, Konzeptberatung, Projektberatung und -entwicklung, Forschung'
 const colors = {
   secondary: '#ECE1CB',
   peter_blue: '#305596',
