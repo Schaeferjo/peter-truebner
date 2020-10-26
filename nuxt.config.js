@@ -1,5 +1,5 @@
 const description =
-  'Prof. em. Dr. phil Peter Trübner: Soziologe, Psychologe, Vorträge, psychologische Beratung, Konzeptberatung, Projektberatung und -entwicklung, Forschung'
+  'Prof. em. Dr. phil Peter Trübner: Psychologische Krisenbetreuung für Individuen. Beratung bei Projektplanung und Konzeptentwicklung für Institutionen.'
 const colors = {
   secondary: '#ECE1CB',
   peter_blue: '#305596',
