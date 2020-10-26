@@ -77,23 +77,32 @@ a{
   }
  }
 
+ 
 @media only screen and (max-width: 599px) {
-
+  h1, h2, h3, h4{
+    -moz-hyphens: none !important;
+    -o-hyphens: none !important;
+    -ms-hyphens: none !important;
+    hyphens: none !important;
+  }
   h1{
     font-size: 1.8em;
-    -moz-hyphens: auto !important;
-    -o-hyphens: auto !important;
-    -webkit-hyphens: auto !important;
-    -ms-hyphens: auto !important;
-    hyphens: auto !important;
   }
   h2{
     font-size: 1.4em !important
   }
-
   h3{
     font-size: 1.0em !important
   }
-  
+ 
+}
 
+
+@media only screen and (max-width: 249px) {
+  h1, h2, h3, h4{
+    -moz-hyphens: auto !important;
+    -o-hyphens: auto !important;
+    -ms-hyphens: auto !important;
+    hyphens: auto !important;
+  }  
 }

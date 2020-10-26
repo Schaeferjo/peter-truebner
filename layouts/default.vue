@@ -178,7 +178,6 @@ export default {
     padding: 20px 2em 3em 2em !important;
     -moz-hyphens: auto !important;
     -o-hyphens: auto !important;
-    -webkit-hyphens: auto !important;
     -ms-hyphens: auto !important;
     hyphens: auto !important;
   }
