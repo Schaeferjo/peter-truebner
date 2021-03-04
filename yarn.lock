@@ -4304,10 +4304,10 @@ fontsource-pt-sans@^3.0.9:
   resolved "https://registry.yarnpkg.com/fontsource-pt-sans/-/fontsource-pt-sans-3.0.9.tgz#73dcfd28c99ed7482468d97e0df139be0d5dbd08"
   integrity sha512-gnKxKF4a7MKrg3RY9A95BCB5q+D1YMo+YksYGc36Vi9HKbLmegOiwlMj4LIyj3SgvA7dXa1mRptPaAqKlMRYmg==
 
-fontsource-pt-serif@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/fontsource-pt-serif/-/fontsource-pt-serif-3.0.9.tgz#a9683d5ac3a02493908ba4ff0f813d7f4b65ad19"
-  integrity sha512-77GVU9AxJST26a81JUa1hmufLA6WOfz1wtYpPFa5HRTRzTugRNblrxe9pUh2oMTrlanOwJDbAR0516VnAN2e7w==
+fontsource-pt-serif@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-pt-serif/-/fontsource-pt-serif-4.0.0.tgz#b6bd2f4e7398b91d0e725c080715df232266a711"
+  integrity sha512-l5iXlnLv2jkKhf3iVN0UMn7fT0R6WJPAYYhiKZSBBpos3JsgqHEFeDcvoOolF10ocWuXVs88I0R5OjIhB9zUFw==
 
 for-in@^1.0.2:
   version "1.0.2"
