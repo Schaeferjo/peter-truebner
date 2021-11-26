@@ -31,6 +31,6 @@
     "fontsource-pt-sans": "^3.0.9",
     "fontsource-pt-serif": "^3.0.9",
     "mapbox-gl": "^2.1.1",
-    "prettier": "^2.2.0"
+    "prettier": "^2.5.0"
   }
 }
