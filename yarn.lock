@@ -3024,10 +3024,10 @@ follow-redirects@^1.0.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
   integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
-fontsource-pt-sans@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/fontsource-pt-sans/-/fontsource-pt-sans-3.0.9.tgz#73dcfd28c99ed7482468d97e0df139be0d5dbd08"
-  integrity sha512-gnKxKF4a7MKrg3RY9A95BCB5q+D1YMo+YksYGc36Vi9HKbLmegOiwlMj4LIyj3SgvA7dXa1mRptPaAqKlMRYmg==
+fontsource-pt-sans@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-pt-sans/-/fontsource-pt-sans-4.0.0.tgz#864face27b636635087a0a085f9afd2814ee509c"
+  integrity sha512-oNdS6HRrhF6rIXahqhxA8p71tzd402iZZqk8rc8AZmuaZZji23vUCgZZc7Rimljqmcwfry5gRsObs4B0PetBKw==
 
 fontsource-pt-serif@^4.0.0:
   version "4.0.0"
