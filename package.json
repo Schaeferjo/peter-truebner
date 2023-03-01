@@ -15,7 +15,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.9.1",
     "install": "^0.13.0",
-    "nuxt": "^3.1.0",
+    "nuxt": "^3.2.3",
     "vuetify-audio": "^0.3.3"
   },
   "devDependencies": {
