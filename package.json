@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
-    "core-js": "^3.9.1",
+    "core-js": "^3.29.1",
     "install": "^0.13.0",
     "nuxt": "^3.1.0",
     "vuetify-audio": "^0.3.3"
